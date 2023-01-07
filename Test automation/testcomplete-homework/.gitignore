@@ -1,0 +1,15 @@
+#i am using glob syntax
+syntax: glob
+
+Log/
+
+*.tcLogs
+
+*.tcLs 
+
+.*.tcCfgExtander
+
+*.bak
+
+*KTD.tcKDT
+*.NMimg

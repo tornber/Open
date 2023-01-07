@@ -1,0 +1,61 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1648482205194,1670,HTTP Request,200,OK,Thread Group 1-1,text,true,,2545,292,1,1,https://reqres.in/api/users?name=morpheus&job=leader,252,0,214
+1648482205194,258,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,,true,,686,146,1,1,http://reqres.in/api/users?name=morpheus&job=leader,252,0,214
+1648482205458,1406,HTTP Request-1,200,OK,Thread Group 1-1,text,true,,1859,146,1,1,https://reqres.in/api/users?name=morpheus&job=leader,1405,0,1022
+1648482219840,106,HTTP Request,200,OK,Thread Group 1-2,text,true,,2550,292,1,1,https://reqres.in/api/users?name=morpheus&job=leader,16,0,5
+1648482219840,16,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,,true,,684,146,1,1,http://reqres.in/api/users?name=morpheus&job=leader,16,0,5
+1648482219860,86,HTTP Request-1,200,OK,Thread Group 1-2,text,true,,1866,146,1,1,https://reqres.in/api/users?name=morpheus&job=leader,86,0,68
+1648482234847,74,HTTP Request,200,OK,Thread Group 1-3,text,true,,2546,292,1,1,https://reqres.in/api/users?name=morpheus&job=leader,20,0,7
+1648482234847,20,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,,true,,680,146,1,1,http://reqres.in/api/users?name=morpheus&job=leader,20,0,7
+1648482234868,53,HTTP Request-1,200,OK,Thread Group 1-3,text,true,,1866,146,1,1,https://reqres.in/api/users?name=morpheus&job=leader,52,0,43
+1648482249830,271,HTTP Request,200,OK,Thread Group 1-4,text,true,,2548,292,1,1,https://reqres.in/api/users?name=morpheus&job=leader,13,0,5
+1648482249830,13,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,,true,,688,146,1,1,http://reqres.in/api/users?name=morpheus&job=leader,13,0,5
+1648482249844,257,HTTP Request-1,200,OK,Thread Group 1-4,text,true,,1860,146,1,1,https://reqres.in/api/users?name=morpheus&job=leader,257,0,170
+1648482264832,87,HTTP Request,200,OK,Thread Group 1-5,text,true,,2552,292,1,1,https://reqres.in/api/users?name=morpheus&job=leader,17,0,5
+1648482264832,17,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,,true,,680,146,1,1,http://reqres.in/api/users?name=morpheus&job=leader,17,0,5
+1648482264851,68,HTTP Request-1,200,OK,Thread Group 1-5,text,true,,1872,146,1,1,https://reqres.in/api/users?name=morpheus&job=leader,68,0,53
+1648482279844,87,HTTP Request,200,OK,Thread Group 1-6,text,true,,2548,292,1,1,https://reqres.in/api/users?name=morpheus&job=leader,17,0,6
+1648482279844,17,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,,true,,684,146,1,1,http://reqres.in/api/users?name=morpheus&job=leader,17,0,6
+1648482279863,68,HTTP Request-1,200,OK,Thread Group 1-6,text,true,,1864,146,1,1,https://reqres.in/api/users?name=morpheus&job=leader,67,0,53
+1648482294832,54,HTTP Request,200,OK,Thread Group 1-7,text,true,,2548,292,1,1,https://reqres.in/api/users?name=morpheus&job=leader,11,0,4
+1648482294832,11,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,,true,,684,146,1,1,http://reqres.in/api/users?name=morpheus&job=leader,11,0,4
+1648482294844,42,HTTP Request-1,200,OK,Thread Group 1-7,text,true,,1864,146,1,1,https://reqres.in/api/users?name=morpheus&job=leader,42,0,28
+1648482309839,88,HTTP Request,200,OK,Thread Group 1-8,text,true,,2549,292,1,1,https://reqres.in/api/users?name=morpheus&job=leader,21,0,7
+1648482309839,21,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,,true,,688,146,1,1,http://reqres.in/api/users?name=morpheus&job=leader,21,0,7
+1648482309883,44,HTTP Request-1,200,OK,Thread Group 1-8,text,true,,1861,146,1,1,https://reqres.in/api/users?name=morpheus&job=leader,44,0,30
+1648482324834,89,HTTP Request,200,OK,Thread Group 1-9,text,true,,2543,292,1,1,https://reqres.in/api/users?name=morpheus&job=leader,17,0,5
+1648482324834,17,HTTP Request-0,301,Moved Permanently,Thread Group 1-9,,true,,680,146,1,1,http://reqres.in/api/users?name=morpheus&job=leader,17,0,5
+1648482324853,70,HTTP Request-1,200,OK,Thread Group 1-9,text,true,,1863,146,1,1,https://reqres.in/api/users?name=morpheus&job=leader,70,0,52
+1648482339849,391,HTTP Request,200,OK,Thread Group 1-10,text,true,,2555,292,1,1,https://reqres.in/api/users?name=morpheus&job=leader,152,0,76
+1648482339849,152,HTTP Request-0,301,Moved Permanently,Thread Group 1-10,,true,,688,146,1,1,http://reqres.in/api/users?name=morpheus&job=leader,152,0,76
+1648482340002,238,HTTP Request-1,200,OK,Thread Group 1-10,text,true,,1867,146,1,1,https://reqres.in/api/users?name=morpheus&job=leader,238,0,132
+1648482354833,83,HTTP Request,200,OK,Thread Group 1-11,text,true,,2553,292,1,1,https://reqres.in/api/users?name=morpheus&job=leader,16,0,5
+1648482354833,16,HTTP Request-0,301,Moved Permanently,Thread Group 1-11,,true,,684,146,1,1,http://reqres.in/api/users?name=morpheus&job=leader,16,0,5
+1648482354851,65,HTTP Request-1,200,OK,Thread Group 1-11,text,true,,1869,146,1,1,https://reqres.in/api/users?name=morpheus&job=leader,64,0,51
+1648482369831,76,HTTP Request,200,OK,Thread Group 1-12,text,true,,2551,292,1,1,https://reqres.in/api/users?name=morpheus&job=leader,16,0,5
+1648482369831,16,HTTP Request-0,301,Moved Permanently,Thread Group 1-12,,true,,684,146,1,1,http://reqres.in/api/users?name=morpheus&job=leader,16,0,5
+1648482369849,58,HTTP Request-1,200,OK,Thread Group 1-12,text,true,,1867,146,1,1,https://reqres.in/api/users?name=morpheus&job=leader,57,0,45
+1648482384835,79,HTTP Request,200,OK,Thread Group 1-13,text,true,,2553,292,1,1,https://reqres.in/api/users?name=morpheus&job=leader,19,0,10
+1648482384835,19,HTTP Request-0,301,Moved Permanently,Thread Group 1-13,,true,,688,146,1,1,http://reqres.in/api/users?name=morpheus&job=leader,19,0,10
+1648482384856,58,HTTP Request-1,200,OK,Thread Group 1-13,text,true,,1865,146,1,1,https://reqres.in/api/users?name=morpheus&job=leader,58,0,44
+1648482399832,64,HTTP Request,200,OK,Thread Group 1-14,text,true,,2545,292,1,1,https://reqres.in/api/users?name=morpheus&job=leader,11,0,4
+1648482399832,11,HTTP Request-0,301,Moved Permanently,Thread Group 1-14,,true,,686,146,1,1,http://reqres.in/api/users?name=morpheus&job=leader,11,0,4
+1648482399845,51,HTTP Request-1,200,OK,Thread Group 1-14,text,true,,1859,146,1,1,https://reqres.in/api/users?name=morpheus&job=leader,51,0,38
+1648482414833,79,HTTP Request,200,OK,Thread Group 1-15,text,true,,2549,292,1,1,https://reqres.in/api/users?name=morpheus&job=leader,19,0,7
+1648482414833,19,HTTP Request-0,301,Moved Permanently,Thread Group 1-15,,true,,686,146,1,1,http://reqres.in/api/users?name=morpheus&job=leader,19,0,7
+1648482414854,58,HTTP Request-1,200,OK,Thread Group 1-15,text,true,,1863,146,1,1,https://reqres.in/api/users?name=morpheus&job=leader,57,0,39
+1648482429830,53,HTTP Request,200,OK,Thread Group 1-16,text,true,,2553,292,1,1,https://reqres.in/api/users?name=morpheus&job=leader,18,0,4
+1648482429830,18,HTTP Request-0,301,Moved Permanently,Thread Group 1-16,,true,,688,146,1,1,http://reqres.in/api/users?name=morpheus&job=leader,18,0,4
+1648482429849,34,HTTP Request-1,200,OK,Thread Group 1-16,text,true,,1865,146,1,1,https://reqres.in/api/users?name=morpheus&job=leader,33,0,24
+1648482444831,117,HTTP Request,200,OK,Thread Group 1-17,text,true,,2547,292,1,1,https://reqres.in/api/users?name=morpheus&job=leader,16,0,5
+1648482444831,16,HTTP Request-0,301,Moved Permanently,Thread Group 1-17,,true,,686,146,1,1,http://reqres.in/api/users?name=morpheus&job=leader,16,0,5
+1648482444849,99,HTTP Request-1,200,OK,Thread Group 1-17,text,true,,1861,146,1,1,https://reqres.in/api/users?name=morpheus&job=leader,98,0,51
+1648482459833,61,HTTP Request,200,OK,Thread Group 1-18,text,true,,2551,292,1,1,https://reqres.in/api/users?name=morpheus&job=leader,17,0,6
+1648482459833,17,HTTP Request-0,301,Moved Permanently,Thread Group 1-18,,true,,682,146,1,1,http://reqres.in/api/users?name=morpheus&job=leader,17,0,6
+1648482459851,43,HTTP Request-1,200,OK,Thread Group 1-18,text,true,,1869,146,1,1,https://reqres.in/api/users?name=morpheus&job=leader,42,0,32
+1648482474820,62,HTTP Request,200,OK,Thread Group 1-19,text,true,,2547,292,1,1,https://reqres.in/api/users?name=morpheus&job=leader,17,0,6
+1648482474820,17,HTTP Request-0,301,Moved Permanently,Thread Group 1-19,,true,,682,146,1,1,http://reqres.in/api/users?name=morpheus&job=leader,17,0,6
+1648482474839,43,HTTP Request-1,200,OK,Thread Group 1-19,text,true,,1865,146,1,1,https://reqres.in/api/users?name=morpheus&job=leader,43,0,33
+1648482489816,76,HTTP Request,200,OK,Thread Group 1-20,text,true,,2545,292,1,1,https://reqres.in/api/users?name=morpheus&job=leader,20,0,5
+1648482489816,20,HTTP Request-0,301,Moved Permanently,Thread Group 1-20,,true,,680,146,1,1,http://reqres.in/api/users?name=morpheus&job=leader,20,0,5
+1648482489838,54,HTTP Request-1,200,OK,Thread Group 1-20,text,true,,1865,146,1,1,https://reqres.in/api/users?name=morpheus&job=leader,54,0,44

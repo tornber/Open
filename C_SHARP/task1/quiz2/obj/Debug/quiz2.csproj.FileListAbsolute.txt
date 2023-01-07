@@ -1,0 +1,8 @@
+C:\Users\4torn\OneDrive\Desktop\c#\quiz2\quiz2\obj\Debug\quiz2.csproj.AssemblyReference.cache
+C:\Users\4torn\OneDrive\Desktop\c#\quiz2\quiz2\obj\Debug\quiz2.csproj.SuggestedBindingRedirects.cache
+C:\Users\4torn\OneDrive\Desktop\c#\quiz2\quiz2\obj\Debug\quiz2.csproj.CoreCompileInputs.cache
+C:\Users\4torn\OneDrive\Desktop\c#\quiz2\quiz2\bin\Debug\quiz2.exe.config
+C:\Users\4torn\OneDrive\Desktop\c#\quiz2\quiz2\bin\Debug\quiz2.exe
+C:\Users\4torn\OneDrive\Desktop\c#\quiz2\quiz2\bin\Debug\quiz2.pdb
+C:\Users\4torn\OneDrive\Desktop\c#\quiz2\quiz2\obj\Debug\quiz2.exe
+C:\Users\4torn\OneDrive\Desktop\c#\quiz2\quiz2\obj\Debug\quiz2.pdb

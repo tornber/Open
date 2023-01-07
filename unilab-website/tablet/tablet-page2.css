@@ -1,0 +1,165 @@
+@media only screen and (max-width: 768px) {
+    
+    .body {
+        width: 768px;
+    }
+    
+    body .header {
+        width: 768px;
+    }
+    
+    body .full-width {
+        width: 768px;
+    }
+    
+    .full-width .main {
+        height: 2324px;
+    }
+    
+    .main .main-container {
+        width: 608px;
+    }
+    
+    .main-container .home-container {
+        margin: 32px 0px;
+    }
+    
+    .home-container .filter .filter-image {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .main .main-container .news {
+        -ms-grid-columns: 608px;
+        grid-template-columns: 608px;
+    }
+    
+    .news .news-left .news-left-container {
+        width: 446px;
+    }
+    
+    .news-left-container .news-left-text {
+        height: 43px;
+    }
+    
+    .news .news-left  .news-image {
+        width: 608px;
+        height: 400px;
+    }
+    
+    .main-container .news .news-right {
+        width: 608px;
+        height: 400px;
+    }
+    
+    .news-right .news-right-container {
+        width: 446px;
+    }
+    
+    .news-right-container .keywords {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .news-right-container .select .select-header .select-input .select-input-box {
+        width: 446px;
+    }
+    
+    
+    .main .main-container  .news-underline {
+        margin-top: 41px;
+    }
+    
+    .main .main-container  .info-grid {
+            grid-template-areas: 
+        "info1 info1"
+        "info2 info3";
+    }
+    
+    .info-grid .info1 {
+        height: 121px;
+        width: 284px;
+    }
+    
+    .info-grid .info2 {
+        height: 224px;
+        width: 284px;
+    }
+    
+    .info-grid .info3 {
+        height: 224px;
+        width: 284px;
+    }
+    
+    main .main-container  .sec3 {
+        height: 797px;
+    }
+    
+    .sec3 .el {
+        width: 608px;
+        height: 260px;
+    }
+    
+    .sec3 .sec3-text {
+        width: 608px;
+        height: 330px;
+    }
+    
+    main .main-container  .sec3-underline {
+        margin-bottom: 40px;
+        width: 608px;
+    }
+    
+    main .main-container  .news-underline {
+        width: 608px;
+        margin-bottom: 40px;
+    }
+    
+    body .footer {
+        width: 768px;
+        height: 316px;
+        -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    }
+    
+    .footer .footer-left .left-container {
+        width: 570px;
+    }
+    
+    
+    .left-container .links-grid {
+        row-gap: 10px;
+        width: 250px;
+    }
+    
+    .footer .footer-right {
+        margin-top: -70px;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    
+    .footer .footer-right .footer--right-container {
+        width: 608px;
+        height: 66px;
+    }
+    
+    .footer--right-container .email.grid {
+        width: 280px;
+        height: 64px;
+        margin-left: 0px;
+        -ms-flex-item-align: start;
+            align-self: flex-start;
+    }
+    
+    .footer--right-container .email-grid .email-text {
+        height: 10px;
+    }
+    
+    .footer-right .footer--right-container .social-links {
+        margin-left: 190px;
+        width: 136px;
+        -ms-flex-item-align: end;
+            align-self: flex-end;
+    }
+}

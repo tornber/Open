@@ -1,0 +1,371 @@
+[1642608560.341][INFO]: Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 19826
+[1642608560.341][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1642608560.801][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\4torn\\OneDrive\\Desktop\\IT_academy\\testng-homework\\build\\downloads\\1642608553258_7244_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\4torn\\OneDrive\\Desktop\\IT_academy\\testng-homework\\build\\downloads\\1642608553258_7244_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1642608560.806][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\4torn\\OneDrive\\Desktop\\IT_academy\\testng-homework\\build\\downloads\\1642608553258_7244_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1642608560.807][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1642608560.816][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\4torn\AppData\Local\Temp\scoped_dir15280_775496746" data:,
+[1642608567.068][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1642608567.076][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1642608567.129][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "97.0.4692.71",
+      "chrome": {
+         "chromedriverVersion": "97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247})",
+         "userDataDir": "C:\\Users\\4torn\\AppData\\Local\\Temp\\scoped_dir15280_775496746"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:56312"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "bc36a35ae556bdef7e172f07dc0d339c"
+}
+[1642608567.200][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1642608567.200][INFO]: Waiting for pending navigations...
+[1642608567.201][INFO]: Done waiting for pending navigations. Status: ok
+[1642608567.318][INFO]: Waiting for pending navigations...
+[1642608567.318][INFO]: Done waiting for pending navigations. Status: ok
+[1642608567.318][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1642608567.324][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1642608567.324][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE SetTimeouts
+[1642608567.330][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND Navigate {
+   "url": "http://the-internet.herokuapp.com/checkboxes"
+}
+[1642608567.330][INFO]: Waiting for pending navigations...
+[1642608567.331][INFO]: Done waiting for pending navigations. Status: ok
+[1642608574.817][INFO]: Waiting for pending navigations...
+[1642608579.207][INFO]: Done waiting for pending navigations. Status: ok
+[1642608579.207][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE Navigate
+[1642608579.296][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[contains(text(),'checkbox 2')]"
+}
+[1642608579.296][INFO]: Waiting for pending navigations...
+[1642608579.297][INFO]: Done waiting for pending navigations. Status: ok
+[1642608579.308][INFO]: Waiting for pending navigations...
+[1642608579.309][INFO]: Done waiting for pending navigations. Status: ok
+[1642608579.309][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(text(),'checkbox 2')]"}
+  (Session info: chrome=97.0.4692.71)
+[1642608579.621][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[contains(text(),'checkbox 2')]"
+}
+[1642608579.621][INFO]: Waiting for pending navigations...
+[1642608579.621][INFO]: Done waiting for pending navigations. Status: ok
+[1642608579.626][INFO]: Waiting for pending navigations...
+[1642608579.627][INFO]: Done waiting for pending navigations. Status: ok
+[1642608579.627][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(text(),'checkbox 2')]"}
+  (Session info: chrome=97.0.4692.71)
+[1642608579.838][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[contains(text(),'checkbox 2')]"
+}
+[1642608579.838][INFO]: Waiting for pending navigations...
+[1642608579.839][INFO]: Done waiting for pending navigations. Status: ok
+[1642608579.850][INFO]: Waiting for pending navigations...
+[1642608579.851][INFO]: Done waiting for pending navigations. Status: ok
+[1642608579.851][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(text(),'checkbox 2')]"}
+  (Session info: chrome=97.0.4692.71)
+[1642608580.067][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[contains(text(),'checkbox 2')]"
+}
+[1642608580.067][INFO]: Waiting for pending navigations...
+[1642608580.067][INFO]: Done waiting for pending navigations. Status: ok
+[1642608580.073][INFO]: Waiting for pending navigations...
+[1642608580.074][INFO]: Done waiting for pending navigations. Status: ok
+[1642608580.074][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(text(),'checkbox 2')]"}
+  (Session info: chrome=97.0.4692.71)
+[1642608580.288][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[contains(text(),'checkbox 2')]"
+}
+[1642608580.288][INFO]: Waiting for pending navigations...
+[1642608580.289][INFO]: Done waiting for pending navigations. Status: ok
+[1642608580.305][INFO]: Waiting for pending navigations...
+[1642608580.306][INFO]: Done waiting for pending navigations. Status: ok
+[1642608580.306][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(text(),'checkbox 2')]"}
+  (Session info: chrome=97.0.4692.71)
+[1642608580.519][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[contains(text(),'checkbox 2')]"
+}
+[1642608580.520][INFO]: Waiting for pending navigations...
+[1642608580.521][INFO]: Done waiting for pending navigations. Status: ok
+[1642608580.537][INFO]: Waiting for pending navigations...
+[1642608580.538][INFO]: Done waiting for pending navigations. Status: ok
+[1642608580.538][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(text(),'checkbox 2')]"}
+  (Session info: chrome=97.0.4692.71)
+[1642608580.755][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[contains(text(),'checkbox 2')]"
+}
+[1642608580.755][INFO]: Waiting for pending navigations...
+[1642608580.756][INFO]: Done waiting for pending navigations. Status: ok
+[1642608580.764][INFO]: Waiting for pending navigations...
+[1642608580.764][INFO]: Done waiting for pending navigations. Status: ok
+[1642608580.764][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(text(),'checkbox 2')]"}
+  (Session info: chrome=97.0.4692.71)
+[1642608580.973][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[contains(text(),'checkbox 2')]"
+}
+[1642608580.973][INFO]: Waiting for pending navigations...
+[1642608580.974][INFO]: Done waiting for pending navigations. Status: ok
+[1642608580.986][INFO]: Waiting for pending navigations...
+[1642608580.987][INFO]: Done waiting for pending navigations. Status: ok
+[1642608580.987][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(text(),'checkbox 2')]"}
+  (Session info: chrome=97.0.4692.71)
+[1642608581.194][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[contains(text(),'checkbox 2')]"
+}
+[1642608581.194][INFO]: Waiting for pending navigations...
+[1642608581.194][INFO]: Done waiting for pending navigations. Status: ok
+[1642608581.199][INFO]: Waiting for pending navigations...
+[1642608581.199][INFO]: Done waiting for pending navigations. Status: ok
+[1642608581.199][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(text(),'checkbox 2')]"}
+  (Session info: chrome=97.0.4692.71)
+[1642608581.405][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[contains(text(),'checkbox 2')]"
+}
+[1642608581.405][INFO]: Waiting for pending navigations...
+[1642608581.405][INFO]: Done waiting for pending navigations. Status: ok
+[1642608581.410][INFO]: Waiting for pending navigations...
+[1642608581.410][INFO]: Done waiting for pending navigations. Status: ok
+[1642608581.410][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(text(),'checkbox 2')]"}
+  (Session info: chrome=97.0.4692.71)
+[1642608581.619][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[contains(text(),'checkbox 2')]"
+}
+[1642608581.619][INFO]: Waiting for pending navigations...
+[1642608581.621][INFO]: Done waiting for pending navigations. Status: ok
+[1642608581.636][INFO]: Waiting for pending navigations...
+[1642608581.637][INFO]: Done waiting for pending navigations. Status: ok
+[1642608581.637][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(text(),'checkbox 2')]"}
+  (Session info: chrome=97.0.4692.71)
+[1642608581.867][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[contains(text(),'checkbox 2')]"
+}
+[1642608581.867][INFO]: Waiting for pending navigations...
+[1642608581.868][INFO]: Done waiting for pending navigations. Status: ok
+[1642608581.884][INFO]: Waiting for pending navigations...
+[1642608581.884][INFO]: Done waiting for pending navigations. Status: ok
+[1642608581.884][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(text(),'checkbox 2')]"}
+  (Session info: chrome=97.0.4692.71)
+[1642608582.093][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[contains(text(),'checkbox 2')]"
+}
+[1642608582.093][INFO]: Waiting for pending navigations...
+[1642608582.094][INFO]: Done waiting for pending navigations. Status: ok
+[1642608582.103][INFO]: Waiting for pending navigations...
+[1642608582.103][INFO]: Done waiting for pending navigations. Status: ok
+[1642608582.104][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(text(),'checkbox 2')]"}
+  (Session info: chrome=97.0.4692.71)
+[1642608582.311][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[contains(text(),'checkbox 2')]"
+}
+[1642608582.311][INFO]: Waiting for pending navigations...
+[1642608582.311][INFO]: Done waiting for pending navigations. Status: ok
+[1642608582.317][INFO]: Waiting for pending navigations...
+[1642608582.317][INFO]: Done waiting for pending navigations. Status: ok
+[1642608582.317][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(text(),'checkbox 2')]"}
+  (Session info: chrome=97.0.4692.71)
+[1642608582.524][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[contains(text(),'checkbox 2')]"
+}
+[1642608582.524][INFO]: Waiting for pending navigations...
+[1642608582.525][INFO]: Done waiting for pending navigations. Status: ok
+[1642608582.529][INFO]: Waiting for pending navigations...
+[1642608582.530][INFO]: Done waiting for pending navigations. Status: ok
+[1642608582.530][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(text(),'checkbox 2')]"}
+  (Session info: chrome=97.0.4692.71)
+[1642608582.751][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[contains(text(),'checkbox 2')]"
+}
+[1642608582.751][INFO]: Waiting for pending navigations...
+[1642608582.751][INFO]: Done waiting for pending navigations. Status: ok
+[1642608582.757][INFO]: Waiting for pending navigations...
+[1642608582.757][INFO]: Done waiting for pending navigations. Status: ok
+[1642608582.757][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(text(),'checkbox 2')]"}
+  (Session info: chrome=97.0.4692.71)
+[1642608582.970][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[contains(text(),'checkbox 2')]"
+}
+[1642608582.970][INFO]: Waiting for pending navigations...
+[1642608582.971][INFO]: Done waiting for pending navigations. Status: ok
+[1642608582.977][INFO]: Waiting for pending navigations...
+[1642608582.977][INFO]: Done waiting for pending navigations. Status: ok
+[1642608582.977][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(text(),'checkbox 2')]"}
+  (Session info: chrome=97.0.4692.71)
+[1642608583.186][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[contains(text(),'checkbox 2')]"
+}
+[1642608583.186][INFO]: Waiting for pending navigations...
+[1642608583.188][INFO]: Done waiting for pending navigations. Status: ok
+[1642608583.204][INFO]: Waiting for pending navigations...
+[1642608583.205][INFO]: Done waiting for pending navigations. Status: ok
+[1642608583.206][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(text(),'checkbox 2')]"}
+  (Session info: chrome=97.0.4692.71)
+[1642608583.418][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1642608583.418][INFO]: Waiting for pending navigations...
+[1642608583.418][INFO]: Done waiting for pending navigations. Status: ok
+[1642608583.421][INFO]: Waiting for pending navigations...
+[1642608583.422][INFO]: Done waiting for pending navigations. Status: ok
+[1642608583.422][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE ExecuteScript "\u003Chtml class=\"no-js\" lang=\"en\">\u003C!--\u003C![endif]-->\u003Chead>\n    \u003Cscript src=\"/js/vendor/298279967.js\">\u003C/script>\n    \u003Cmeta charset=\"utf-8\">\n    \u003Cmeta name=\"viewport\" content=\"width=device-width\">\n    \u003Ctitl..."
+[1642608583.452][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] COMMAND Screenshot {
+
+}
+[1642608583.452][INFO]: Waiting for pending navigations...
+[1642608583.452][INFO]: Done waiting for pending navigations. Status: ok
+[1642608584.110][INFO]: Waiting for pending navigations...
+[1642608584.111][INFO]: Done waiting for pending navigations. Status: ok
+[1642608584.111][INFO]: [bc36a35ae556bdef7e172f07dc0d339c] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xt8VOW99/1vzpxhwKBA5DAjVaKVhFETFcIpcVuNPZiAlXZb4l2T9KlITwT2fcPzsHd49oZod8XaXRJbk93WoCTxUKNtGaoySneojkGrwdMMHkAgAQIhAXK+/..."

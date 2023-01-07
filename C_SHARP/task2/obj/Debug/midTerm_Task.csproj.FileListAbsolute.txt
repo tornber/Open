@@ -1,0 +1,8 @@
+C:\Users\4torn\OneDrive\Desktop\c#\midTerm_Task\bin\Debug\midTerm_Task.exe.config
+C:\Users\4torn\OneDrive\Desktop\c#\midTerm_Task\bin\Debug\midTerm_Task.exe
+C:\Users\4torn\OneDrive\Desktop\c#\midTerm_Task\bin\Debug\midTerm_Task.pdb
+C:\Users\4torn\OneDrive\Desktop\c#\midTerm_Task\obj\Debug\midTerm_Task.csproj.AssemblyReference.cache
+C:\Users\4torn\OneDrive\Desktop\c#\midTerm_Task\obj\Debug\midTerm_Task.csproj.SuggestedBindingRedirects.cache
+C:\Users\4torn\OneDrive\Desktop\c#\midTerm_Task\obj\Debug\midTerm_Task.csproj.CoreCompileInputs.cache
+C:\Users\4torn\OneDrive\Desktop\c#\midTerm_Task\obj\Debug\midTerm_Task.exe
+C:\Users\4torn\OneDrive\Desktop\c#\midTerm_Task\obj\Debug\midTerm_Task.pdb

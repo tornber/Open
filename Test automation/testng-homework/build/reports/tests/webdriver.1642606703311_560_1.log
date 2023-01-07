@@ -1,0 +1,189 @@
+[1642606703.773][INFO]: Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 40822
+[1642606703.773][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1642606704.234][INFO]: [c280aa7cb6067a91d56b3bda108df54e] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\4torn\\OneDrive\\Desktop\\IT_academy\\testng-homework\\build\\downloads\\1642606702407_560_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\4torn\\OneDrive\\Desktop\\IT_academy\\testng-homework\\build\\downloads\\1642606702407_560_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1642606704.239][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\4torn\\OneDrive\\Desktop\\IT_academy\\testng-homework\\build\\downloads\\1642606702407_560_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1642606704.240][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1642606704.247][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\4torn\AppData\Local\Temp\scoped_dir11044_463385307" data:,
+[1642606705.184][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1642606705.187][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1642606705.193][INFO]: [c280aa7cb6067a91d56b3bda108df54e] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "97.0.4692.71",
+      "chrome": {
+         "chromedriverVersion": "97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247})",
+         "userDataDir": "C:\\Users\\4torn\\AppData\\Local\\Temp\\scoped_dir11044_463385307"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:52765"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "c280aa7cb6067a91d56b3bda108df54e"
+}
+[1642606705.257][INFO]: [c280aa7cb6067a91d56b3bda108df54e] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1642606705.257][INFO]: Waiting for pending navigations...
+[1642606705.258][INFO]: Done waiting for pending navigations. Status: ok
+[1642606705.386][INFO]: Waiting for pending navigations...
+[1642606705.388][INFO]: Done waiting for pending navigations. Status: ok
+[1642606705.388][INFO]: [c280aa7cb6067a91d56b3bda108df54e] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1642606705.400][INFO]: [c280aa7cb6067a91d56b3bda108df54e] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1642606705.400][INFO]: [c280aa7cb6067a91d56b3bda108df54e] RESPONSE SetTimeouts
+[1642606705.414][INFO]: [c280aa7cb6067a91d56b3bda108df54e] COMMAND Navigate {
+   "url": "http://the-internet.herokuapp.com/checkboxes"
+}
+[1642606705.414][INFO]: Waiting for pending navigations...
+[1642606705.415][INFO]: Done waiting for pending navigations. Status: ok
+[1642606708.574][INFO]: Waiting for pending navigations...
+[1642606710.170][INFO]: Done waiting for pending navigations. Status: ok
+[1642606710.170][INFO]: [c280aa7cb6067a91d56b3bda108df54e] RESPONSE Navigate
+[1642606710.247][INFO]: [c280aa7cb6067a91d56b3bda108df54e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1642606710.247][INFO]: Waiting for pending navigations...
+[1642606710.248][INFO]: Done waiting for pending navigations. Status: ok
+[1642606710.257][INFO]: Waiting for pending navigations...
+[1642606710.257][INFO]: Done waiting for pending navigations. Status: ok
+[1642606710.257][INFO]: [c280aa7cb6067a91d56b3bda108df54e] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "59b35a50-24e1-4b42-b160-672e6779a77d"
+}
+[1642606710.303][INFO]: [c280aa7cb6067a91d56b3bda108df54e] COMMAND Quit {
+
+}
+[1642606710.612][INFO]: [c280aa7cb6067a91d56b3bda108df54e] RESPONSE Quit

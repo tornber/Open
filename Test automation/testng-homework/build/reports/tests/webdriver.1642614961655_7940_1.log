@@ -1,0 +1,216 @@
+[1642614962.037][INFO]: Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 15218
+[1642614962.222][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1642614962.430][INFO]: [7d41c6cdf9dc3c4c3bd29dd5b9e7881a] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\4torn\\OneDrive\\Desktop\\IT_academy\\testng-homework\\build\\downloads\\1642614961587_7940_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\4torn\\OneDrive\\Desktop\\IT_academy\\testng-homework\\build\\downloads\\1642614961587_7940_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1642614962.445][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\4torn\\OneDrive\\Desktop\\IT_academy\\testng-homework\\build\\downloads\\1642614961587_7940_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1642614962.503][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1642614962.632][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\4torn\AppData\Local\Temp\scoped_dir1432_493725414" data:,
+[1642614965.089][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1642614965.094][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1642614965.171][INFO]: [7d41c6cdf9dc3c4c3bd29dd5b9e7881a] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "97.0.4692.71",
+      "chrome": {
+         "chromedriverVersion": "97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247})",
+         "userDataDir": "C:\\Users\\4torn\\AppData\\Local\\Temp\\scoped_dir1432_493725414"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:63210"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "7d41c6cdf9dc3c4c3bd29dd5b9e7881a"
+}
+[1642614965.183][INFO]: [7d41c6cdf9dc3c4c3bd29dd5b9e7881a] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1642614965.183][INFO]: Waiting for pending navigations...
+[1642614965.183][INFO]: Done waiting for pending navigations. Status: ok
+[1642614965.300][INFO]: Waiting for pending navigations...
+[1642614965.301][INFO]: Done waiting for pending navigations. Status: ok
+[1642614965.301][INFO]: [7d41c6cdf9dc3c4c3bd29dd5b9e7881a] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1642614965.326][INFO]: [7d41c6cdf9dc3c4c3bd29dd5b9e7881a] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1642614965.326][INFO]: [7d41c6cdf9dc3c4c3bd29dd5b9e7881a] RESPONSE SetTimeouts
+[1642614965.337][INFO]: [7d41c6cdf9dc3c4c3bd29dd5b9e7881a] COMMAND Navigate {
+   "url": "http://localhost:8080/checkboxes"
+}
+[1642614965.337][INFO]: Waiting for pending navigations...
+[1642614965.338][INFO]: Done waiting for pending navigations. Status: ok
+[1642614969.484][INFO]: Waiting for pending navigations...
+[1642614969.568][INFO]: Done waiting for pending navigations. Status: ok
+[1642614973.675][INFO]: Waiting for pending navigations...
+[1642614973.680][INFO]: Done waiting for pending navigations. Status: ok
+[1642614973.968][INFO]: Waiting for pending navigations...
+[1642614973.968][INFO]: Done waiting for pending navigations. Status: ok
+[1642614973.968][INFO]: [7d41c6cdf9dc3c4c3bd29dd5b9e7881a] RESPONSE Navigate ERROR unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=97.0.4692.71)
+[1642614980.748][INFO]: [7d41c6cdf9dc3c4c3bd29dd5b9e7881a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1642614980.748][INFO]: Waiting for pending navigations...
+[1642614980.749][INFO]: Done waiting for pending navigations. Status: ok
+[1642614980.772][INFO]: Waiting for pending navigations...
+[1642614980.772][INFO]: Done waiting for pending navigations. Status: ok
+[1642614980.773][INFO]: [7d41c6cdf9dc3c4c3bd29dd5b9e7881a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxes"}
+  (Session info: chrome=97.0.4692.71)
+[1642614980.980][INFO]: [7d41c6cdf9dc3c4c3bd29dd5b9e7881a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1642614980.980][INFO]: Waiting for pending navigations...
+[1642614980.985][INFO]: Done waiting for pending navigations. Status: ok
+[1642614980.991][INFO]: Waiting for pending navigations...
+[1642614980.991][INFO]: Done waiting for pending navigations. Status: ok
+[1642614980.991][INFO]: [7d41c6cdf9dc3c4c3bd29dd5b9e7881a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxes"}
+  (Session info: chrome=97.0.4692.71)
+[1642614981.203][INFO]: [7d41c6cdf9dc3c4c3bd29dd5b9e7881a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1642614981.203][INFO]: Waiting for pending navigations...
+[1642614981.205][INFO]: Done waiting for pending navigations. Status: ok
+[1642614981.225][INFO]: Waiting for pending navigations...
+[1642614981.226][INFO]: Done waiting for pending navigations. Status: ok
+[1642614981.226][INFO]: [7d41c6cdf9dc3c4c3bd29dd5b9e7881a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxes"}
+  (Session info: chrome=97.0.4692.71)
+[1642614981.434][INFO]: [7d41c6cdf9dc3c4c3bd29dd5b9e7881a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1642614981.434][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1642614985.445][WARNING]: Timed out connecting to Chrome, retrying...
+[1642614985.446][INFO]: resolved localhost to ["::1","127.0.0.1"]

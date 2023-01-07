@@ -1,0 +1,8 @@
+C:\Users\4torn\OneDrive\Desktop\c#\final_task\final_task\bin\Debug\final_task.exe.config
+C:\Users\4torn\OneDrive\Desktop\c#\final_task\final_task\bin\Debug\final_task.exe
+C:\Users\4torn\OneDrive\Desktop\c#\final_task\final_task\bin\Debug\final_task.pdb
+C:\Users\4torn\OneDrive\Desktop\c#\final_task\final_task\obj\Debug\final_task.csproj.AssemblyReference.cache
+C:\Users\4torn\OneDrive\Desktop\c#\final_task\final_task\obj\Debug\final_task.csproj.SuggestedBindingRedirects.cache
+C:\Users\4torn\OneDrive\Desktop\c#\final_task\final_task\obj\Debug\final_task.csproj.CoreCompileInputs.cache
+C:\Users\4torn\OneDrive\Desktop\c#\final_task\final_task\obj\Debug\final_task.exe
+C:\Users\4torn\OneDrive\Desktop\c#\final_task\final_task\obj\Debug\final_task.pdb

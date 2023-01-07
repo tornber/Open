@@ -1,0 +1,9 @@
+.list-wrapper {
+    border: 1px solid #cccccc;
+    display: flex;
+    justify-content: center;
+}
+.list {
+    width: 50%;
+    border: 1px solid #cccccc;
+}

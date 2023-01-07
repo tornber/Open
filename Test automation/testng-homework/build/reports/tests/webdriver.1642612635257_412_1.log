@@ -1,0 +1,578 @@
+[1642612636.065][INFO]: Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 12964
+[1642612636.065][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1642612636.668][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\4torn\\OneDrive\\Desktop\\IT_academy\\testng-homework\\build\\downloads\\1642612633738_412_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\4torn\\OneDrive\\Desktop\\IT_academy\\testng-homework\\build\\downloads\\1642612633738_412_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1642612636.673][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\4torn\\OneDrive\\Desktop\\IT_academy\\testng-homework\\build\\downloads\\1642612633738_412_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1642612636.701][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1642612636.707][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\4torn\AppData\Local\Temp\scoped_dir13292_2144688807" data:,
+[1642612637.879][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1642612637.882][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1642612637.889][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "97.0.4692.71",
+      "chrome": {
+         "chromedriverVersion": "97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247})",
+         "userDataDir": "C:\\Users\\4torn\\AppData\\Local\\Temp\\scoped_dir13292_2144688807"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:61268"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "612c987c981f02e81c162d579d7a4eeb"
+}
+[1642612638.693][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1642612638.693][INFO]: Waiting for pending navigations...
+[1642612638.695][INFO]: Done waiting for pending navigations. Status: ok
+[1642612638.818][INFO]: Waiting for pending navigations...
+[1642612638.821][INFO]: Done waiting for pending navigations. Status: ok
+[1642612638.821][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 75,
+   "y": 11
+}
+[1642612638.828][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1642612638.828][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE SetTimeouts
+[1642612638.840][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND Navigate {
+   "url": "http://the-internet.herokuapp.com/checkboxes"
+}
+[1642612638.840][INFO]: Waiting for pending navigations...
+[1642612638.840][INFO]: Done waiting for pending navigations. Status: ok
+[1642612641.744][INFO]: Waiting for pending navigations...
+[1642612643.181][INFO]: Done waiting for pending navigations. Status: ok
+[1642612643.181][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE Navigate
+[1642612643.256][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612643.256][INFO]: Waiting for pending navigations...
+[1642612643.257][INFO]: Done waiting for pending navigations. Status: ok
+[1642612643.266][INFO]: Waiting for pending navigations...
+[1642612643.267][INFO]: Done waiting for pending navigations. Status: ok
+[1642612643.267][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612643.481][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612643.482][INFO]: Waiting for pending navigations...
+[1642612643.482][INFO]: Done waiting for pending navigations. Status: ok
+[1642612643.487][INFO]: Waiting for pending navigations...
+[1642612643.487][INFO]: Done waiting for pending navigations. Status: ok
+[1642612643.487][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612643.697][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612643.697][INFO]: Waiting for pending navigations...
+[1642612643.698][INFO]: Done waiting for pending navigations. Status: ok
+[1642612643.712][INFO]: Waiting for pending navigations...
+[1642612643.713][INFO]: Done waiting for pending navigations. Status: ok
+[1642612643.713][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612643.949][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612643.949][INFO]: Waiting for pending navigations...
+[1642612643.949][INFO]: Done waiting for pending navigations. Status: ok
+[1642612643.954][INFO]: Waiting for pending navigations...
+[1642612643.955][INFO]: Done waiting for pending navigations. Status: ok
+[1642612643.955][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612644.165][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612644.165][INFO]: Waiting for pending navigations...
+[1642612644.167][INFO]: Done waiting for pending navigations. Status: ok
+[1642612644.183][INFO]: Waiting for pending navigations...
+[1642612644.184][INFO]: Done waiting for pending navigations. Status: ok
+[1642612644.184][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612644.395][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612644.396][INFO]: Waiting for pending navigations...
+[1642612644.397][INFO]: Done waiting for pending navigations. Status: ok
+[1642612644.412][INFO]: Waiting for pending navigations...
+[1642612644.413][INFO]: Done waiting for pending navigations. Status: ok
+[1642612644.413][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612644.623][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612644.623][INFO]: Waiting for pending navigations...
+[1642612644.625][INFO]: Done waiting for pending navigations. Status: ok
+[1642612644.639][INFO]: Waiting for pending navigations...
+[1642612644.640][INFO]: Done waiting for pending navigations. Status: ok
+[1642612644.640][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612644.850][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612644.850][INFO]: Waiting for pending navigations...
+[1642612644.852][INFO]: Done waiting for pending navigations. Status: ok
+[1642612644.868][INFO]: Waiting for pending navigations...
+[1642612644.870][INFO]: Done waiting for pending navigations. Status: ok
+[1642612644.870][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612645.081][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612645.081][INFO]: Waiting for pending navigations...
+[1642612645.082][INFO]: Done waiting for pending navigations. Status: ok
+[1642612645.097][INFO]: Waiting for pending navigations...
+[1642612645.098][INFO]: Done waiting for pending navigations. Status: ok
+[1642612645.098][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612645.305][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612645.305][INFO]: Waiting for pending navigations...
+[1642612645.306][INFO]: Done waiting for pending navigations. Status: ok
+[1642612645.310][INFO]: Waiting for pending navigations...
+[1642612645.310][INFO]: Done waiting for pending navigations. Status: ok
+[1642612645.310][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612645.520][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612645.520][INFO]: Waiting for pending navigations...
+[1642612645.521][INFO]: Done waiting for pending navigations. Status: ok
+[1642612645.535][INFO]: Waiting for pending navigations...
+[1642612645.537][INFO]: Done waiting for pending navigations. Status: ok
+[1642612645.537][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612645.749][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612645.749][INFO]: Waiting for pending navigations...
+[1642612645.751][INFO]: Done waiting for pending navigations. Status: ok
+[1642612645.768][INFO]: Waiting for pending navigations...
+[1642612645.770][INFO]: Done waiting for pending navigations. Status: ok
+[1642612645.770][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612645.983][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612645.983][INFO]: Waiting for pending navigations...
+[1642612645.985][INFO]: Done waiting for pending navigations. Status: ok
+[1642612645.995][INFO]: Waiting for pending navigations...
+[1642612645.996][INFO]: Done waiting for pending navigations. Status: ok
+[1642612645.996][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612646.212][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612646.212][INFO]: Waiting for pending navigations...
+[1642612646.214][INFO]: Done waiting for pending navigations. Status: ok
+[1642612646.231][INFO]: Waiting for pending navigations...
+[1642612646.232][INFO]: Done waiting for pending navigations. Status: ok
+[1642612646.232][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612646.441][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612646.441][INFO]: Waiting for pending navigations...
+[1642612646.442][INFO]: Done waiting for pending navigations. Status: ok
+[1642612646.456][INFO]: Waiting for pending navigations...
+[1642612646.458][INFO]: Done waiting for pending navigations. Status: ok
+[1642612646.458][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612646.666][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612646.666][INFO]: Waiting for pending navigations...
+[1642612646.667][INFO]: Done waiting for pending navigations. Status: ok
+[1642612646.672][INFO]: Waiting for pending navigations...
+[1642612646.673][INFO]: Done waiting for pending navigations. Status: ok
+[1642612646.673][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612646.885][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612646.885][INFO]: Waiting for pending navigations...
+[1642612646.895][INFO]: Done waiting for pending navigations. Status: ok
+[1642612646.901][INFO]: Waiting for pending navigations...
+[1642612646.901][INFO]: Done waiting for pending navigations. Status: ok
+[1642612646.901][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612647.110][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612647.110][INFO]: Waiting for pending navigations...
+[1642612647.112][INFO]: Done waiting for pending navigations. Status: ok
+[1642612647.121][INFO]: Waiting for pending navigations...
+[1642612647.122][INFO]: Done waiting for pending navigations. Status: ok
+[1642612647.122][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612647.347][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612647.347][INFO]: Waiting for pending navigations...
+[1642612647.349][INFO]: Done waiting for pending navigations. Status: ok
+[1642612647.364][INFO]: Waiting for pending navigations...
+[1642612647.366][INFO]: Done waiting for pending navigations. Status: ok
+[1642612647.366][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612647.578][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612647.578][INFO]: Waiting for pending navigations...
+[1642612647.579][INFO]: Done waiting for pending navigations. Status: ok
+[1642612647.595][INFO]: Waiting for pending navigations...
+[1642612647.597][INFO]: Done waiting for pending navigations. Status: ok
+[1642612647.597][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612647.812][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612647.812][INFO]: Waiting for pending navigations...
+[1642612647.814][INFO]: Done waiting for pending navigations. Status: ok
+[1642612647.825][INFO]: Waiting for pending navigations...
+[1642612647.825][INFO]: Done waiting for pending navigations. Status: ok
+[1642612647.825][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612648.048][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612648.048][INFO]: Waiting for pending navigations...
+[1642612648.049][INFO]: Done waiting for pending navigations. Status: ok
+[1642612648.053][INFO]: Waiting for pending navigations...
+[1642612648.053][INFO]: Done waiting for pending navigations. Status: ok
+[1642612648.053][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612648.260][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612648.260][INFO]: Waiting for pending navigations...
+[1642612648.261][INFO]: Done waiting for pending navigations. Status: ok
+[1642612648.269][INFO]: Waiting for pending navigations...
+[1642612648.270][INFO]: Done waiting for pending navigations. Status: ok
+[1642612648.270][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612648.488][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612648.488][INFO]: Waiting for pending navigations...
+[1642612648.489][INFO]: Done waiting for pending navigations. Status: ok
+[1642612648.495][INFO]: Waiting for pending navigations...
+[1642612648.496][INFO]: Done waiting for pending navigations. Status: ok
+[1642612648.496][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612648.701][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612648.701][INFO]: Waiting for pending navigations...
+[1642612648.702][INFO]: Done waiting for pending navigations. Status: ok
+[1642612648.708][INFO]: Waiting for pending navigations...
+[1642612648.709][INFO]: Done waiting for pending navigations. Status: ok
+[1642612648.709][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612648.927][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612648.927][INFO]: Waiting for pending navigations...
+[1642612648.929][INFO]: Done waiting for pending navigations. Status: ok
+[1642612648.937][INFO]: Waiting for pending navigations...
+[1642612648.938][INFO]: Done waiting for pending navigations. Status: ok
+[1642612648.938][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612649.144][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612649.144][INFO]: Waiting for pending navigations...
+[1642612649.145][INFO]: Done waiting for pending navigations. Status: ok
+[1642612649.155][INFO]: Waiting for pending navigations...
+[1642612649.156][INFO]: Done waiting for pending navigations. Status: ok
+[1642612649.156][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612649.363][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612649.363][INFO]: Waiting for pending navigations...
+[1642612649.364][INFO]: Done waiting for pending navigations. Status: ok
+[1642612649.373][INFO]: Waiting for pending navigations...
+[1642612649.374][INFO]: Done waiting for pending navigations. Status: ok
+[1642612649.374][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612649.590][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612649.590][INFO]: Waiting for pending navigations...
+[1642612649.591][INFO]: Done waiting for pending navigations. Status: ok
+[1642612649.608][INFO]: Waiting for pending navigations...
+[1642612649.609][INFO]: Done waiting for pending navigations. Status: ok
+[1642612649.609][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612649.818][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612649.818][INFO]: Waiting for pending navigations...
+[1642612649.819][INFO]: Done waiting for pending navigations. Status: ok
+[1642612649.832][INFO]: Waiting for pending navigations...
+[1642612649.833][INFO]: Done waiting for pending navigations. Status: ok
+[1642612649.833][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612650.044][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612650.044][INFO]: Waiting for pending navigations...
+[1642612650.045][INFO]: Done waiting for pending navigations. Status: ok
+[1642612650.053][INFO]: Waiting for pending navigations...
+[1642612650.054][INFO]: Done waiting for pending navigations. Status: ok
+[1642612650.054][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612650.264][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612650.264][INFO]: Waiting for pending navigations...
+[1642612650.265][INFO]: Done waiting for pending navigations. Status: ok
+[1642612650.271][INFO]: Waiting for pending navigations...
+[1642612650.272][INFO]: Done waiting for pending navigations. Status: ok
+[1642612650.272][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612650.490][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612650.490][INFO]: Waiting for pending navigations...
+[1642612650.491][INFO]: Done waiting for pending navigations. Status: ok
+[1642612650.500][INFO]: Waiting for pending navigations...
+[1642612650.501][INFO]: Done waiting for pending navigations. Status: ok
+[1642612650.501][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612650.708][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612650.708][INFO]: Waiting for pending navigations...
+[1642612650.709][INFO]: Done waiting for pending navigations. Status: ok
+[1642612650.715][INFO]: Waiting for pending navigations...
+[1642612650.716][INFO]: Done waiting for pending navigations. Status: ok
+[1642612650.716][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612650.922][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612650.922][INFO]: Waiting for pending navigations...
+[1642612650.922][INFO]: Done waiting for pending navigations. Status: ok
+[1642612650.927][INFO]: Waiting for pending navigations...
+[1642612650.927][INFO]: Done waiting for pending navigations. Status: ok
+[1642612650.927][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612651.131][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612651.131][INFO]: Waiting for pending navigations...
+[1642612651.132][INFO]: Done waiting for pending navigations. Status: ok
+[1642612651.136][INFO]: Waiting for pending navigations...
+[1642612651.137][INFO]: Done waiting for pending navigations. Status: ok
+[1642612651.137][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612651.342][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxesfff"
+}
+[1642612651.342][INFO]: Waiting for pending navigations...
+[1642612651.342][INFO]: Done waiting for pending navigations. Status: ok
+[1642612651.349][INFO]: Waiting for pending navigations...
+[1642612651.350][INFO]: Done waiting for pending navigations. Status: ok
+[1642612651.350][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#checkboxesfff"}
+  (Session info: chrome=97.0.4692.71)
+[1642612651.356][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1642612651.356][INFO]: Waiting for pending navigations...
+[1642612651.356][INFO]: Done waiting for pending navigations. Status: ok
+[1642612651.359][INFO]: Waiting for pending navigations...
+[1642612651.359][INFO]: Done waiting for pending navigations. Status: ok
+[1642612651.359][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE ExecuteScript "\u003Chtml class=\"no-js\" lang=\"en\">\u003C!--\u003C![endif]-->\u003Chead>\n    \u003Cscript src=\"/js/vendor/298279967.js\">\u003C/script>\n    \u003Cmeta charset=\"utf-8\">\n    \u003Cmeta name=\"viewport\" content=\"width=device-width\">\n    \u003Ctitl..."
+[1642612651.362][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND Screenshot {
+
+}
+[1642612651.362][INFO]: Waiting for pending navigations...
+[1642612651.363][INFO]: Done waiting for pending navigations. Status: ok
+[1642612651.456][INFO]: Waiting for pending navigations...
+[1642612651.457][INFO]: Done waiting for pending navigations. Status: ok
+[1642612651.457][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xt8VOW99/1vzpxhwKBA5DAjVaKVhFETFcIpcVuNPZiAlXZb4l2T9KlITwT2fcPzsHd49oZod8XaXRJbk93WoCTxUKNtGaoySneojkGrwdMMHkAgAQIhAXK+/..."
+[1642612651.674][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1642612651.674][INFO]: Waiting for pending navigations...
+[1642612651.676][INFO]: Done waiting for pending navigations. Status: ok
+[1642612651.683][INFO]: Waiting for pending navigations...
+[1642612651.684][INFO]: Done waiting for pending navigations. Status: ok
+[1642612651.684][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE ExecuteScript "\u003Chtml class=\"no-js\" lang=\"en\">\u003C!--\u003C![endif]-->\u003Chead>\n    \u003Cscript src=\"/js/vendor/298279967.js\">\u003C/script>\n    \u003Cmeta charset=\"utf-8\">\n    \u003Cmeta name=\"viewport\" content=\"width=device-width\">\n    \u003Ctitl..."
+[1642612651.698][INFO]: [612c987c981f02e81c162d579d7a4eeb] COMMAND Screenshot {
+
+}
+[1642612651.698][INFO]: Waiting for pending navigations...
+[1642612651.699][INFO]: Done waiting for pending navigations. Status: ok
+[1642612651.814][INFO]: Waiting for pending navigations...
+[1642612651.814][INFO]: Done waiting for pending navigations. Status: ok
+[1642612651.814][INFO]: [612c987c981f02e81c162d579d7a4eeb] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xt8VOW99/1vzpxhwKBA5DAjVaKVhFETFcIpcVuNPZiAlXZb4l2T9KlITwT2fcPzsHd49oZod8XaXRJbk93WoCTxUKNtGaoySneojkGrwdMMHkAgAQIhAXK+/..."

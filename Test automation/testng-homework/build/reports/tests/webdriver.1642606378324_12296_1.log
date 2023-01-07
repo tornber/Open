@@ -1,0 +1,554 @@
+[1642606384.927][INFO]: Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 16710
+[1642606384.930][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1642606386.309][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\4torn\\OneDrive\\Desktop\\IT_academy\\testng-homework\\build\\downloads\\1642606372091_12296_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\4torn\\OneDrive\\Desktop\\IT_academy\\testng-homework\\build\\downloads\\1642606372091_12296_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1642606386.333][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\4torn\\OneDrive\\Desktop\\IT_academy\\testng-homework\\build\\downloads\\1642606372091_12296_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1642606386.354][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1642606386.490][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\4torn\AppData\Local\Temp\scoped_dir7972_181329730" data:,
+[1642606394.879][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1642606395.086][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1642606395.136][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "97.0.4692.71",
+      "chrome": {
+         "chromedriverVersion": "97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247})",
+         "userDataDir": "C:\\Users\\4torn\\AppData\\Local\\Temp\\scoped_dir7972_181329730"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:52119"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "d9d318cea39918d31931f7a3d05a87a9"
+}
+[1642606395.682][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1642606395.707][INFO]: Waiting for pending navigations...
+[1642606395.709][INFO]: Done waiting for pending navigations. Status: ok
+[1642606395.906][INFO]: Waiting for pending navigations...
+[1642606395.908][INFO]: Done waiting for pending navigations. Status: ok
+[1642606395.908][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1642606395.921][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1642606395.921][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE SetTimeouts
+[1642606396.742][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606396.742][INFO]: Waiting for pending navigations...
+[1642606396.743][INFO]: Done waiting for pending navigations. Status: ok
+[1642606396.833][INFO]: Waiting for pending navigations...
+[1642606396.834][INFO]: Done waiting for pending navigations. Status: ok
+[1642606396.834][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606397.059][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606397.059][INFO]: Waiting for pending navigations...
+[1642606397.060][INFO]: Done waiting for pending navigations. Status: ok
+[1642606397.068][INFO]: Waiting for pending navigations...
+[1642606397.068][INFO]: Done waiting for pending navigations. Status: ok
+[1642606397.068][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606397.287][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606397.287][INFO]: Waiting for pending navigations...
+[1642606397.289][INFO]: Done waiting for pending navigations. Status: ok
+[1642606397.301][INFO]: Waiting for pending navigations...
+[1642606397.302][INFO]: Done waiting for pending navigations. Status: ok
+[1642606397.302][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606397.521][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606397.521][INFO]: Waiting for pending navigations...
+[1642606397.522][INFO]: Done waiting for pending navigations. Status: ok
+[1642606397.538][INFO]: Waiting for pending navigations...
+[1642606397.539][INFO]: Done waiting for pending navigations. Status: ok
+[1642606397.539][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606397.755][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606397.755][INFO]: Waiting for pending navigations...
+[1642606397.757][INFO]: Done waiting for pending navigations. Status: ok
+[1642606397.772][INFO]: Waiting for pending navigations...
+[1642606397.773][INFO]: Done waiting for pending navigations. Status: ok
+[1642606397.773][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606397.987][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606397.987][INFO]: Waiting for pending navigations...
+[1642606397.989][INFO]: Done waiting for pending navigations. Status: ok
+[1642606398.004][INFO]: Waiting for pending navigations...
+[1642606398.005][INFO]: Done waiting for pending navigations. Status: ok
+[1642606398.005][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606398.218][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606398.218][INFO]: Waiting for pending navigations...
+[1642606398.219][INFO]: Done waiting for pending navigations. Status: ok
+[1642606398.232][INFO]: Waiting for pending navigations...
+[1642606398.233][INFO]: Done waiting for pending navigations. Status: ok
+[1642606398.233][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606398.447][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606398.447][INFO]: Waiting for pending navigations...
+[1642606398.448][INFO]: Done waiting for pending navigations. Status: ok
+[1642606398.459][INFO]: Waiting for pending navigations...
+[1642606398.460][INFO]: Done waiting for pending navigations. Status: ok
+[1642606398.460][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606398.678][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606398.679][INFO]: Waiting for pending navigations...
+[1642606398.679][INFO]: Done waiting for pending navigations. Status: ok
+[1642606398.688][INFO]: Waiting for pending navigations...
+[1642606398.689][INFO]: Done waiting for pending navigations. Status: ok
+[1642606398.689][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606398.918][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606398.919][INFO]: Waiting for pending navigations...
+[1642606398.920][INFO]: Done waiting for pending navigations. Status: ok
+[1642606398.927][INFO]: Waiting for pending navigations...
+[1642606398.927][INFO]: Done waiting for pending navigations. Status: ok
+[1642606398.927][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606399.144][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606399.144][INFO]: Waiting for pending navigations...
+[1642606399.145][INFO]: Done waiting for pending navigations. Status: ok
+[1642606399.155][INFO]: Waiting for pending navigations...
+[1642606399.155][INFO]: Done waiting for pending navigations. Status: ok
+[1642606399.155][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606399.373][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606399.373][INFO]: Waiting for pending navigations...
+[1642606399.374][INFO]: Done waiting for pending navigations. Status: ok
+[1642606399.383][INFO]: Waiting for pending navigations...
+[1642606399.386][INFO]: Done waiting for pending navigations. Status: ok
+[1642606399.386][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606399.606][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606399.606][INFO]: Waiting for pending navigations...
+[1642606399.607][INFO]: Done waiting for pending navigations. Status: ok
+[1642606399.618][INFO]: Waiting for pending navigations...
+[1642606399.619][INFO]: Done waiting for pending navigations. Status: ok
+[1642606399.619][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606399.837][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606399.837][INFO]: Waiting for pending navigations...
+[1642606399.838][INFO]: Done waiting for pending navigations. Status: ok
+[1642606399.851][INFO]: Waiting for pending navigations...
+[1642606399.851][INFO]: Done waiting for pending navigations. Status: ok
+[1642606399.851][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606400.065][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606400.066][INFO]: Waiting for pending navigations...
+[1642606400.066][INFO]: Done waiting for pending navigations. Status: ok
+[1642606400.071][INFO]: Waiting for pending navigations...
+[1642606400.071][INFO]: Done waiting for pending navigations. Status: ok
+[1642606400.071][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606400.313][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606400.313][INFO]: Waiting for pending navigations...
+[1642606400.314][INFO]: Done waiting for pending navigations. Status: ok
+[1642606400.318][INFO]: Waiting for pending navigations...
+[1642606400.319][INFO]: Done waiting for pending navigations. Status: ok
+[1642606400.319][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606400.532][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606400.532][INFO]: Waiting for pending navigations...
+[1642606400.533][INFO]: Done waiting for pending navigations. Status: ok
+[1642606400.537][INFO]: Waiting for pending navigations...
+[1642606400.538][INFO]: Done waiting for pending navigations. Status: ok
+[1642606400.538][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606400.746][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606400.746][INFO]: Waiting for pending navigations...
+[1642606400.747][INFO]: Done waiting for pending navigations. Status: ok
+[1642606400.751][INFO]: Waiting for pending navigations...
+[1642606400.751][INFO]: Done waiting for pending navigations. Status: ok
+[1642606400.751][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606400.967][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606400.967][INFO]: Waiting for pending navigations...
+[1642606400.968][INFO]: Done waiting for pending navigations. Status: ok
+[1642606400.972][INFO]: Waiting for pending navigations...
+[1642606400.973][INFO]: Done waiting for pending navigations. Status: ok
+[1642606400.973][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606401.183][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606401.183][INFO]: Waiting for pending navigations...
+[1642606401.184][INFO]: Done waiting for pending navigations. Status: ok
+[1642606401.191][INFO]: Waiting for pending navigations...
+[1642606401.192][INFO]: Done waiting for pending navigations. Status: ok
+[1642606401.192][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606401.405][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606401.405][INFO]: Waiting for pending navigations...
+[1642606401.407][INFO]: Done waiting for pending navigations. Status: ok
+[1642606401.415][INFO]: Waiting for pending navigations...
+[1642606401.416][INFO]: Done waiting for pending navigations. Status: ok
+[1642606401.416][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606401.638][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606401.639][INFO]: Waiting for pending navigations...
+[1642606401.640][INFO]: Done waiting for pending navigations. Status: ok
+[1642606401.653][INFO]: Waiting for pending navigations...
+[1642606401.654][INFO]: Done waiting for pending navigations. Status: ok
+[1642606401.654][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606401.870][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606401.870][INFO]: Waiting for pending navigations...
+[1642606401.872][INFO]: Done waiting for pending navigations. Status: ok
+[1642606401.886][INFO]: Waiting for pending navigations...
+[1642606401.888][INFO]: Done waiting for pending navigations. Status: ok
+[1642606401.888][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606402.100][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606402.100][INFO]: Waiting for pending navigations...
+[1642606402.101][INFO]: Done waiting for pending navigations. Status: ok
+[1642606402.111][INFO]: Waiting for pending navigations...
+[1642606402.113][INFO]: Done waiting for pending navigations. Status: ok
+[1642606402.113][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606402.331][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606402.331][INFO]: Waiting for pending navigations...
+[1642606402.333][INFO]: Done waiting for pending navigations. Status: ok
+[1642606402.353][INFO]: Waiting for pending navigations...
+[1642606402.355][INFO]: Done waiting for pending navigations. Status: ok
+[1642606402.355][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606402.582][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606402.582][INFO]: Waiting for pending navigations...
+[1642606402.583][INFO]: Done waiting for pending navigations. Status: ok
+[1642606402.593][INFO]: Waiting for pending navigations...
+[1642606402.594][INFO]: Done waiting for pending navigations. Status: ok
+[1642606402.594][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606402.804][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606402.804][INFO]: Waiting for pending navigations...
+[1642606402.806][INFO]: Done waiting for pending navigations. Status: ok
+[1642606402.819][INFO]: Waiting for pending navigations...
+[1642606402.821][INFO]: Done waiting for pending navigations. Status: ok
+[1642606402.821][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606403.031][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606403.031][INFO]: Waiting for pending navigations...
+[1642606403.032][INFO]: Done waiting for pending navigations. Status: ok
+[1642606403.047][INFO]: Waiting for pending navigations...
+[1642606403.048][INFO]: Done waiting for pending navigations. Status: ok
+[1642606403.048][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606403.263][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606403.264][INFO]: Waiting for pending navigations...
+[1642606403.265][INFO]: Done waiting for pending navigations. Status: ok
+[1642606403.279][INFO]: Waiting for pending navigations...
+[1642606403.280][INFO]: Done waiting for pending navigations. Status: ok
+[1642606403.280][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606403.499][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606403.499][INFO]: Waiting for pending navigations...
+[1642606403.500][INFO]: Done waiting for pending navigations. Status: ok
+[1642606403.513][INFO]: Waiting for pending navigations...
+[1642606403.513][INFO]: Done waiting for pending navigations. Status: ok
+[1642606403.513][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606403.727][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606403.727][INFO]: Waiting for pending navigations...
+[1642606403.728][INFO]: Done waiting for pending navigations. Status: ok
+[1642606403.743][INFO]: Waiting for pending navigations...
+[1642606403.744][INFO]: Done waiting for pending navigations. Status: ok
+[1642606403.744][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606403.958][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606403.958][INFO]: Waiting for pending navigations...
+[1642606403.959][INFO]: Done waiting for pending navigations. Status: ok
+[1642606403.967][INFO]: Waiting for pending navigations...
+[1642606403.968][INFO]: Done waiting for pending navigations. Status: ok
+[1642606403.968][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606404.189][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606404.189][INFO]: Waiting for pending navigations...
+[1642606404.189][INFO]: Done waiting for pending navigations. Status: ok
+[1642606404.193][INFO]: Waiting for pending navigations...
+[1642606404.193][INFO]: Done waiting for pending navigations. Status: ok
+[1642606404.193][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606404.407][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606404.407][INFO]: Waiting for pending navigations...
+[1642606404.409][INFO]: Done waiting for pending navigations. Status: ok
+[1642606404.424][INFO]: Waiting for pending navigations...
+[1642606404.425][INFO]: Done waiting for pending navigations. Status: ok
+[1642606404.425][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606404.635][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#dropdown"
+}
+[1642606404.635][INFO]: Waiting for pending navigations...
+[1642606404.636][INFO]: Done waiting for pending navigations. Status: ok
+[1642606404.642][INFO]: Waiting for pending navigations...
+[1642606404.642][INFO]: Done waiting for pending navigations. Status: ok
+[1642606404.642][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown"}
+  (Session info: chrome=97.0.4692.71)
+[1642606404.855][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1642606404.855][INFO]: Waiting for pending navigations...
+[1642606404.856][INFO]: Done waiting for pending navigations. Status: ok
+[1642606404.891][INFO]: Waiting for pending navigations...
+[1642606404.891][INFO]: Done waiting for pending navigations. Status: ok
+[1642606404.891][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003C/head>\u003Cbody>\u003C/body>\u003C/html>"
+[1642606404.893][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND Screenshot {
+
+}
+[1642606404.893][INFO]: Waiting for pending navigations...
+[1642606404.894][INFO]: Done waiting for pending navigations. Status: ok
+[1642606405.031][INFO]: Waiting for pending navigations...
+[1642606405.031][INFO]: Done waiting for pending navigations. Status: ok
+[1642606405.031][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAFAlJREFUeJzt2DEBACAMwDDAv+fhAo4mCnp3z8wsAAAAAICQ8zsAAAAAAOA1YxQAAAAAyDFGAQAAAIAcYxQAAAAAyDFGAQAAAIAcYxQAAAAAyDFGAQAAAIAcYxQAAAAAyDFGA..."
+[1642606405.048][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1642606405.049][INFO]: Waiting for pending navigations...
+[1642606405.049][INFO]: Done waiting for pending navigations. Status: ok
+[1642606405.051][INFO]: Waiting for pending navigations...
+[1642606405.051][INFO]: Done waiting for pending navigations. Status: ok
+[1642606405.051][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003C/head>\u003Cbody>\u003C/body>\u003C/html>"
+[1642606405.055][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND Screenshot {
+
+}
+[1642606405.055][INFO]: Waiting for pending navigations...
+[1642606405.055][INFO]: Done waiting for pending navigations. Status: ok
+[1642606405.143][INFO]: Waiting for pending navigations...
+[1642606405.143][INFO]: Done waiting for pending navigations. Status: ok
+[1642606405.143][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAFAlJREFUeJzt2DEBACAMwDDAv+fhAo4mCnp3z8wsAAAAAICQ8zsAAAAAAOA1YxQAAAAAyDFGAQAAAIAcYxQAAAAAyDFGAQAAAIAcYxQAAAAAyDFGAQAAAIAcYxQAAAAAyDFGA..."
+[1642606405.222][INFO]: [d9d318cea39918d31931f7a3d05a87a9] COMMAND Quit {
+
+}
+[1642606405.331][INFO]: [d9d318cea39918d31931f7a3d05a87a9] RESPONSE Quit

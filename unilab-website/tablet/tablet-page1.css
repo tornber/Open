@@ -1,0 +1,247 @@
+@media only screen and (max-width: 768px) {
+    
+    .body {
+        width: 768px;
+    }
+
+    
+    body .header {
+        width: 768px;
+    }
+    
+    body .main .news {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 768px;
+        grid-template-columns: 768px;
+    }
+    
+    .news .news-left {
+        height: 400px;
+    }
+    
+    .news .news-right {
+        height: 343px;
+    }
+    
+    .news-left .news-left-container {
+        width: 608px;
+    }
+    
+    .news-left-container .news-underline {
+        width: 600px;
+        margin-top: 29px;
+    }
+    
+    .news-left-container .news-text-title {
+        margin-top: 36px;
+        margin-bottom: 9px;
+    }
+    
+    main .news .news-right {
+        display: -ms-grid;
+        display: grid;
+    }
+    
+    .news-right .news-right-container {
+        width: 608px;
+        height: 223px;
+        display: -ms-grid;
+        display: grid;
+            grid-template-areas: 
+        "title title"
+        "travel technology";
+        gap: 40px;
+    }
+    
+    .news-right-container .news-right-title {
+        grid-area: title;
+        margin: 0px;
+    }
+    
+    .news-right-container .travel {
+        grid-area: travel;
+    }
+    
+    .news-right-container .technology {
+        grid-area: technology;
+    }
+    
+    body .main .sec2-container {
+        width: 768px;
+        height: 1814px;
+    }
+    
+    .sec2-container .sec2 {
+        top: 40px;
+        left: 80px;
+        bottom: 80px;
+        right: 80px;
+        width: 608px;
+    }
+    
+    .sec2 .trending-container .trending {
+        width: 522px;
+        height: 22px;
+    }
+    
+    .sec2 .trending-container .brackets2 {
+        margin-left: 34px;
+    }
+    
+    .sec2-container .sec2 .trending-grid {
+        width: 608px;
+        height: 350px;
+        /* -ms-grid-columns: (284px)[2]; */
+        grid-template-columns: repeat(2,284px);
+    }
+    
+    .trending-grid .trending3 {
+        display: none;
+        pointer-events: none;
+        -webkit-transform: translate(250%,0%);
+            -ms-transform: translate(250%,0%);
+                transform: translate(250%,0%);
+    }
+    
+    .trending-image {
+        width: 284px;
+    }
+    
+    .trending-heading {
+        width: 204px;
+    }
+    
+    .trending-paragraph {
+        width: 204px;
+    }
+    
+    .sec2-container .sec2  .happening-grid {
+        width: 608px;
+        height: 1182px;
+        -ms-grid-columns: 608px;
+        grid-template-columns: 608px;
+        row-gap: 40px;
+    }
+    
+    .happening-grid .happening-right {
+        -ms-grid-columns: 284px 40px 284px;
+        grid-template-columns: repeat(2,284px);
+        -webkit-column-gap: 40px;
+           -moz-column-gap: 40px;
+                column-gap: 40px;
+        row-gap: 0px;
+    }
+    
+    .happening-grid .happening-left .happening-left-container .happening-left-header {
+        width: 528px;
+    }
+    
+    .happening-left .happening-left-container .happening-left-article {
+        width: 528px;
+        height: 107px;
+        -ms-grid-rows: 24px 47px;
+        grid-template-rows: 24px 47px;
+    }
+    
+    .happening-left-article .happening-left-article-text {
+        margin: 0px;
+    }
+    
+    .happening-grid .happening-left-container .image1 {
+        width: 608px;
+        height: 430px;
+        -o-object-fit: cover;
+           object-fit: cover;
+    }
+    
+    .happening-grid .happening-left-container .image2 {
+        width: 284px;
+        height: 180px;
+        -o-object-fit: cover;
+           object-fit: cover;
+    }
+    
+    .happening-right .happening-right-container .happening-right-header {
+        top: 200px;
+    }
+    
+    .happening-right .happening-right-container .happening-right-time-ago {
+        top: 226px;
+    }
+    
+    .happening-grid .happening-right .container3 {
+        display: none;
+    }
+    
+    body .size {
+        width: 768px;
+    }
+    
+    body .footer {
+        width: 768px;
+        height: 316px;
+        -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    }
+    
+    
+    .foooter .footer-left .left-container {
+        width: 570px;
+    }
+    
+    
+    .left-container .links-grid {
+        row-gap: 10px;
+        width: 250px;
+    }
+    
+    footer .footer-right {
+        margin-top: -70px;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    
+    .footer-right .footer--right-container {
+        width: 608px;
+        height: 66px;
+    }
+    
+    .footer--right-container .email.grid {
+        width: 280px;
+        height: 64px;
+        margin-left: 0px;
+        -ms-flex-item-align: start;
+            align-self: flex-start;
+    }
+    
+    .email.grid .email-text {
+        height: 10px;
+    }
+    
+    .footer-right .footer--right-container .social-links {
+        margin-left: 190px;
+        width: 136px;
+        -ms-flex-item-align: end;
+            align-self: flex-end;
+    }
+    }
+    
+@media only screen and (max-width: 768px) {
+    
+    .news-right-title {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+    }
+    
+    .travel {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+    
+    .technology {
+        -ms-grid-row: 3;
+        -ms-grid-column: 3;
+    }

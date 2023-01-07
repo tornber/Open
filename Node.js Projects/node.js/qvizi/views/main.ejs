@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title> my todo list
+        </title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="app">
+            <div class="list-wrapper">
+
+                <div class ="list">
+                    <p>todo list</p>
+                   <% todolist.forEach((element,index) => { %>
+                     <div class="list-item"> 
+                         <div> <%= element.name %></div>
+                         <button onclick="movetodone(<%=index%>)">move to done</button>
+                         <div><a href="/movetodone?index=<%=index%>">move to done</a> </div>
+                     </div>
+                  <% }) %>
+                    <% if(todolist.length === 0) {  %>
+                        <div class="list-item">
+                           no data found
+                            </div>
+                        <% } %>
+                </div>
+                <div class="list">
+                    <p>done list</p>
+                    <% donelist.forEach((element,index) => { %>
+                        <div class="list-item"> 
+                            <div> <%= element.name %></div>
+                            <div><a href="/movetodo?index=<%=index%>">move to todo</a> </div>
+                        </div>
+                    <% }) %>
+                    <% if(donelist.length === 0) {  %>
+                        <div class="list-item">
+                            no data found
+                            </div>
+                        <% } %>
+
+                </div>
+            </div>
+            <div class="input-wrapper">
+                <form method="POST" action="/add">
+                    <input type="text" name="task" placeholder="add new task"/>
+                    <button>add</button>
+                </form>
+                
+            </div>
+        </div>
+        <Script src="scripts.js"></Script>
+    </body>
+</html>

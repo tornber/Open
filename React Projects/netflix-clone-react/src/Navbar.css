@@ -1,0 +1,29 @@
+.nav {
+    height: 30px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    z-index: 1;
+}
+
+.nav--black {
+    background-color: #111;
+}
+
+.logo {
+    max-height: 30px;
+    margin-left: 20px;
+    object-fit: contain;
+}
+
+.avatar {
+    max-height: 30px;
+    background-color: aquamarine;
+    margin-right: 20px;
+    object-fit: contain;
+}

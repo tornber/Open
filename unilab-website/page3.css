@@ -1,0 +1,77 @@
+:root {
+    font-size: 18px;
+}
+
+* {
+    margin: 0;
+}
+
+.container {
+    background-color: darkgray;  
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.posts {
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,400px);
+    grid-template-rows: repeat(auto-fill,150px);
+    gap: 25px;
+}
+
+.post {
+    width: 400px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.post--title {
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+.post--text {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgba(38, 121, 31, 0.8);
+    margin-top: 5px;   
+}
+
+.post--author {
+    position: absolute;
+    bottom: 21px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgb(233, 113, 84);
+    align-self: flex-end;
+}
+
+.read--more {
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.navigator {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 400px;
+    margin: 0 auto ;
+    padding-bottom: 50px;
+}
+
+li {
+    cursor: pointer;
+}
+

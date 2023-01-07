@@ -1,0 +1,19 @@
+.list-wrapper {
+    border: 1px solid #cccccc;
+    display: flex;
+    justify-content: center;
+}
+.list {
+    width: 50%;
+    border: 1px solid #cccccc
+}
+.list-item {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.list p {
+    text-align: center;
+}
+

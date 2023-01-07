@@ -1,0 +1,183 @@
+[1642685570.587][INFO]: Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 27358
+[1642685570.588][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1642685570.943][INFO]: [2b496005d6ba6650923d419e52c833a2] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox", "start-maximized" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\4torn\\OneDrive\\Desktop\\IT_academy\\testng-homework\\build\\downloads\\1642685570389_13024_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox", "start-maximized" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\4torn\\OneDrive\\Desktop\\IT_academy\\testng-homework\\build\\downloads\\1642685570389_13024_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1642685571.093][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\4torn\\OneDrive\\Desktop\\IT_academy\\testng-homework\\build\\downloads\\1642685570389_13024_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1642685571.100][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1642685571.120][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\4torn\AppData\Local\Temp\scoped_dir512_187738558" data:,
+[1642685572.735][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1642685572.737][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1642685572.742][INFO]: [2b496005d6ba6650923d419e52c833a2] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "97.0.4692.71",
+      "chrome": {
+         "chromedriverVersion": "97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247})",
+         "userDataDir": "C:\\Users\\4torn\\AppData\\Local\\Temp\\scoped_dir512_187738558"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:63902"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "2b496005d6ba6650923d419e52c833a2"
+}
+[1642685572.757][INFO]: [2b496005d6ba6650923d419e52c833a2] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1642685572.757][INFO]: [2b496005d6ba6650923d419e52c833a2] RESPONSE SetTimeouts
+[1642685572.764][INFO]: [2b496005d6ba6650923d419e52c833a2] COMMAND Navigate {
+   "url": "https://demoqa.com/radio-button"
+}
+[1642685572.764][INFO]: Waiting for pending navigations...
+[1642685572.766][INFO]: Done waiting for pending navigations. Status: ok
+[1642685577.894][INFO]: Waiting for pending navigations...
+[1642685581.365][INFO]: Done waiting for pending navigations. Status: ok
+[1642685581.365][INFO]: [2b496005d6ba6650923d419e52c833a2] RESPONSE Navigate
+[1642685581.420][INFO]: [2b496005d6ba6650923d419e52c833a2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#noRadio"
+}
+[1642685581.420][INFO]: Waiting for pending navigations...
+[1642685581.420][INFO]: Done waiting for pending navigations. Status: ok
+[1642685581.429][INFO]: Waiting for pending navigations...
+[1642685581.430][INFO]: Done waiting for pending navigations. Status: ok
+[1642685581.430][INFO]: [2b496005d6ba6650923d419e52c833a2] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "8c092976-f9f2-476d-9350-6d6f6c5653d4"
+}
+[1642685581.433][INFO]: [2b496005d6ba6650923d419e52c833a2] COMMAND IsElementEnabled {
+   "id": "8c092976-f9f2-476d-9350-6d6f6c5653d4"
+}
+[1642685581.433][INFO]: Waiting for pending navigations...
+[1642685581.433][INFO]: Done waiting for pending navigations. Status: ok
+[1642685581.438][INFO]: Waiting for pending navigations...
+[1642685581.439][INFO]: Done waiting for pending navigations. Status: ok
+[1642685581.439][INFO]: [2b496005d6ba6650923d419e52c833a2] RESPONSE IsElementEnabled false
+[1642685581.486][INFO]: [2b496005d6ba6650923d419e52c833a2] COMMAND Quit {
+
+}
+[1642685581.897][INFO]: [2b496005d6ba6650923d419e52c833a2] RESPONSE Quit

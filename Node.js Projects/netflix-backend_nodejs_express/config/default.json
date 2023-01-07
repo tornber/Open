@@ -1,0 +1,5 @@
+{
+    "db": "mongodb+srv://admin:123@cluster0.vhsoa1y.mongodb.net/test",
+    "cryptojskey": "securedKey",
+    "jwtPrivateKey": "securedKey"
+}

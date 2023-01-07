@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5efd49bd-9eee-453a-937c-c58dbabd2d4f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../git-day-1-practice" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../git-day-1-practice-clone/git-day-1-practice" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../git-day-2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../git-day-3-github-homework" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../git-day-3-github-homework-clone/git-day-3-github-homework" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium project clone/selenium-homework" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium projects" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dir1/app1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dir2/app2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../git-day-3-branching-homework-clone/git-day-3-branching-homework" beforeDir="false" afterPath="$PROJECT_DIR$/../git-day-3-branching-homework-clone/git-day-3-branching-homework" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/finalProjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/finalProjectTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="23HEafuuHz3kDwMk4Jb6CR3Wdlp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="TestNG.finalProjectTest.task3">
+    <configuration name="finalProjectTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-final-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="finalProjectTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="finalProjectTest.register" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-final-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="finalProjectTest" />
+      <option name="METHOD_NAME" value="register" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="finalProjectTest.task2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-final-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="finalProjectTest" />
+      <option name="METHOD_NAME" value="task2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="finalProjectTest.task3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-final-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="finalProjectTest" />
+      <option name="METHOD_NAME" value="task3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.finalProjectTest.task3" />
+        <item itemvalue="TestNG.finalProjectTest" />
+        <item itemvalue="TestNG.finalProjectTest.task2" />
+        <item itemvalue="TestNG.finalProjectTest.register" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5efd49bd-9eee-453a-937c-c58dbabd2d4f" name="Changes" comment="" />
+      <created>1641382685482</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641382685482</updated>
+      <workItem from="1641382707354" duration="619000" />
+      <workItem from="1641384406496" duration="11590000" />
+      <workItem from="1641485133773" duration="4545000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/finalProjectTest.java</url>
+          <line>28</line>
+          <properties class="finalProjectTest" method="register">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

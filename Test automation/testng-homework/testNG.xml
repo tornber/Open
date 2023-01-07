@@ -1,0 +1,43 @@
+
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testSuite" parallel="tests" thread-count="2" >
+    <test name="test1"  preserve-order="false" >
+        <classes>
+            <class name="RadioButtonTests">
+                <methods>
+                    <exclude name="selectYes" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="test2">
+        <groups>
+            <define name="end">
+                <include name=".*End" />
+            </define>
+            <run>
+                <include name="end" />
+            </run>
+        </groups>
+    </test>
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testSuite" parallel="tests" thread-count="2" >
+    <test name="test1"  preserve-order="false" >
+        <classes>
+            <class name="RadioButtonTests">
+                <methods>
+                    <exclude name="selectYes" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="test2">
+        <classes>
+            <class name="CheckboxTests">
+            </class>
+        </classes>
+    </test>
+</suite>

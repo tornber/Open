@@ -1,0 +1,588 @@
+[1642617869.944][INFO]: Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 24161
+[1642617869.944][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1642617870.255][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\4torn\\OneDrive\\Desktop\\IT_academy\\testng-homework\\build\\downloads\\1642617868103_6768_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\4torn\\OneDrive\\Desktop\\IT_academy\\testng-homework\\build\\downloads\\1642617868103_6768_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1642617870.427][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\4torn\\OneDrive\\Desktop\\IT_academy\\testng-homework\\build\\downloads\\1642617868103_6768_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1642617870.429][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1642617870.449][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\4torn\AppData\Local\Temp\scoped_dir14240_1741247326" data:,
+[1642617871.328][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1642617871.330][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1642617871.336][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "97.0.4692.71",
+      "chrome": {
+         "chromedriverVersion": "97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247})",
+         "userDataDir": "C:\\Users\\4torn\\AppData\\Local\\Temp\\scoped_dir14240_1741247326"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:49250"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "84245fa6afe7a6b357811e3d646f469d"
+}
+[1642617871.432][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1642617871.433][INFO]: Waiting for pending navigations...
+[1642617871.442][INFO]: Done waiting for pending navigations. Status: ok
+[1642617871.549][INFO]: Waiting for pending navigations...
+[1642617871.551][INFO]: Done waiting for pending navigations. Status: ok
+[1642617871.551][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1642617871.564][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1642617871.564][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE SetTimeouts
+[1642617871.594][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND Navigate {
+   "url": "https://demoqa.com/radio-button/radio-button"
+}
+[1642617871.594][INFO]: Waiting for pending navigations...
+[1642617871.595][INFO]: Done waiting for pending navigations. Status: ok
+[1642617874.639][INFO]: Waiting for pending navigations...
+[1642617876.484][INFO]: Done waiting for pending navigations. Status: ok
+[1642617876.484][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE Navigate
+[1642617876.567][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#noRadio"
+}
+[1642617876.567][INFO]: Waiting for pending navigations...
+[1642617876.567][INFO]: Done waiting for pending navigations. Status: ok
+[1642617876.581][INFO]: Waiting for pending navigations...
+[1642617876.581][INFO]: Done waiting for pending navigations. Status: ok
+[1642617876.581][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#noRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617876.802][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#noRadio"
+}
+[1642617876.802][INFO]: Waiting for pending navigations...
+[1642617876.803][INFO]: Done waiting for pending navigations. Status: ok
+[1642617876.807][INFO]: Waiting for pending navigations...
+[1642617876.807][INFO]: Done waiting for pending navigations. Status: ok
+[1642617876.807][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#noRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617877.016][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#noRadio"
+}
+[1642617877.017][INFO]: Waiting for pending navigations...
+[1642617877.019][INFO]: Done waiting for pending navigations. Status: ok
+[1642617877.034][INFO]: Waiting for pending navigations...
+[1642617877.036][INFO]: Done waiting for pending navigations. Status: ok
+[1642617877.036][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#noRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617877.256][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#noRadio"
+}
+[1642617877.256][INFO]: Waiting for pending navigations...
+[1642617877.297][INFO]: Done waiting for pending navigations. Status: ok
+[1642617877.315][INFO]: Waiting for pending navigations...
+[1642617877.316][INFO]: Done waiting for pending navigations. Status: ok
+[1642617877.316][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#noRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617877.541][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#noRadio"
+}
+[1642617877.570][INFO]: Waiting for pending navigations...
+[1642617877.571][INFO]: Done waiting for pending navigations. Status: ok
+[1642617877.576][INFO]: Waiting for pending navigations...
+[1642617877.576][INFO]: Done waiting for pending navigations. Status: ok
+[1642617877.576][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#noRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617877.785][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#noRadio"
+}
+[1642617877.785][INFO]: Waiting for pending navigations...
+[1642617877.787][INFO]: Done waiting for pending navigations. Status: ok
+[1642617877.802][INFO]: Waiting for pending navigations...
+[1642617877.803][INFO]: Done waiting for pending navigations. Status: ok
+[1642617877.803][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#noRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617878.029][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#noRadio"
+}
+[1642617878.029][INFO]: Waiting for pending navigations...
+[1642617878.031][INFO]: Done waiting for pending navigations. Status: ok
+[1642617878.046][INFO]: Waiting for pending navigations...
+[1642617878.048][INFO]: Done waiting for pending navigations. Status: ok
+[1642617878.048][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#noRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617878.263][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#noRadio"
+}
+[1642617878.263][INFO]: Waiting for pending navigations...
+[1642617878.263][INFO]: Done waiting for pending navigations. Status: ok
+[1642617878.272][INFO]: Waiting for pending navigations...
+[1642617878.272][INFO]: Done waiting for pending navigations. Status: ok
+[1642617878.273][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#noRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617878.495][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#noRadio"
+}
+[1642617878.495][INFO]: Waiting for pending navigations...
+[1642617878.497][INFO]: Done waiting for pending navigations. Status: ok
+[1642617878.511][INFO]: Waiting for pending navigations...
+[1642617878.512][INFO]: Done waiting for pending navigations. Status: ok
+[1642617878.512][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#noRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617878.727][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#noRadio"
+}
+[1642617878.727][INFO]: Waiting for pending navigations...
+[1642617878.729][INFO]: Done waiting for pending navigations. Status: ok
+[1642617878.744][INFO]: Waiting for pending navigations...
+[1642617878.746][INFO]: Done waiting for pending navigations. Status: ok
+[1642617878.746][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#noRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617879.043][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#noRadio"
+}
+[1642617879.043][INFO]: Waiting for pending navigations...
+[1642617879.044][INFO]: Done waiting for pending navigations. Status: ok
+[1642617879.049][INFO]: Waiting for pending navigations...
+[1642617879.049][INFO]: Done waiting for pending navigations. Status: ok
+[1642617879.049][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#noRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617879.259][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#noRadio"
+}
+[1642617879.259][INFO]: Waiting for pending navigations...
+[1642617879.261][INFO]: Done waiting for pending navigations. Status: ok
+[1642617879.273][INFO]: Waiting for pending navigations...
+[1642617879.274][INFO]: Done waiting for pending navigations. Status: ok
+[1642617879.274][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#noRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617879.487][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#noRadio"
+}
+[1642617879.487][INFO]: Waiting for pending navigations...
+[1642617879.488][INFO]: Done waiting for pending navigations. Status: ok
+[1642617879.494][INFO]: Waiting for pending navigations...
+[1642617879.494][INFO]: Done waiting for pending navigations. Status: ok
+[1642617879.494][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#noRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617879.713][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#noRadio"
+}
+[1642617879.713][INFO]: Waiting for pending navigations...
+[1642617879.715][INFO]: Done waiting for pending navigations. Status: ok
+[1642617879.729][INFO]: Waiting for pending navigations...
+[1642617879.730][INFO]: Done waiting for pending navigations. Status: ok
+[1642617879.730][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#noRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617879.939][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#noRadio"
+}
+[1642617879.939][INFO]: Waiting for pending navigations...
+[1642617879.940][INFO]: Done waiting for pending navigations. Status: ok
+[1642617879.945][INFO]: Waiting for pending navigations...
+[1642617879.945][INFO]: Done waiting for pending navigations. Status: ok
+[1642617879.945][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#noRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617880.153][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#noRadio"
+}
+[1642617880.153][INFO]: Waiting for pending navigations...
+[1642617880.154][INFO]: Done waiting for pending navigations. Status: ok
+[1642617880.169][INFO]: Waiting for pending navigations...
+[1642617880.170][INFO]: Done waiting for pending navigations. Status: ok
+[1642617880.170][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#noRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617880.380][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#noRadio"
+}
+[1642617880.380][INFO]: Waiting for pending navigations...
+[1642617880.381][INFO]: Done waiting for pending navigations. Status: ok
+[1642617880.386][INFO]: Waiting for pending navigations...
+[1642617880.386][INFO]: Done waiting for pending navigations. Status: ok
+[1642617880.387][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#noRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617880.595][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1642617880.595][INFO]: Waiting for pending navigations...
+[1642617880.596][INFO]: Done waiting for pending navigations. Status: ok
+[1642617880.599][INFO]: Waiting for pending navigations...
+[1642617880.599][INFO]: Done waiting for pending navigations. Status: ok
+[1642617880.599][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003Cmeta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\u003Cscript src=\"https://partner.googleadservices.com/gampad/cookie.js?domain=demoqa.com&amp;callback=_gfp_s_&amp;client=c..."
+[1642617880.603][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND Screenshot {
+
+}
+[1642617880.603][INFO]: Waiting for pending navigations...
+[1642617880.605][INFO]: Done waiting for pending navigations. Status: ok
+[1642617880.705][INFO]: Waiting for pending navigations...
+[1642617880.705][INFO]: Done waiting for pending navigations. Status: ok
+[1642617880.705][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAFQVJREFUeJzt3CFLbFsAhuE1avA3mCwGwyQxKAgm/Y1my6Bpuj/BYjNYhIFBMJmECfukc+BcuJcbjiOc93nahhW+/O699myapmkAAAAAAITsfPcAAAAAAIBtE0YBAAAAgBxhF..."
+[1642617880.729][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND GetTitle {
+
+}
+[1642617880.729][INFO]: Waiting for pending navigations...
+[1642617880.732][INFO]: Done waiting for pending navigations. Status: ok
+[1642617880.734][INFO]: Waiting for pending navigations...
+[1642617880.734][INFO]: Done waiting for pending navigations. Status: ok
+[1642617880.734][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE GetTitle "ToolsQA"
+[1642617880.738][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND Navigate {
+   "url": "https://demoqa.com/radio-button/radio-button"
+}
+[1642617880.738][INFO]: Waiting for pending navigations...
+[1642617880.738][INFO]: Done waiting for pending navigations. Status: ok
+[1642617880.879][INFO]: Waiting for pending navigations...
+[1642617881.426][INFO]: Done waiting for pending navigations. Status: ok
+[1642617881.426][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE Navigate
+[1642617881.433][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#yesRadio"
+}
+[1642617881.433][INFO]: Waiting for pending navigations...
+[1642617881.435][INFO]: Done waiting for pending navigations. Status: ok
+[1642617881.445][INFO]: Waiting for pending navigations...
+[1642617881.446][INFO]: Done waiting for pending navigations. Status: ok
+[1642617881.446][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#yesRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617881.650][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#yesRadio"
+}
+[1642617881.650][INFO]: Waiting for pending navigations...
+[1642617881.651][INFO]: Done waiting for pending navigations. Status: ok
+[1642617881.656][INFO]: Waiting for pending navigations...
+[1642617881.656][INFO]: Done waiting for pending navigations. Status: ok
+[1642617881.656][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#yesRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617881.869][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#yesRadio"
+}
+[1642617881.924][INFO]: Waiting for pending navigations...
+[1642617881.925][INFO]: Done waiting for pending navigations. Status: ok
+[1642617881.930][INFO]: Waiting for pending navigations...
+[1642617881.930][INFO]: Done waiting for pending navigations. Status: ok
+[1642617881.930][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#yesRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617882.138][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#yesRadio"
+}
+[1642617882.139][INFO]: Waiting for pending navigations...
+[1642617882.139][INFO]: Done waiting for pending navigations. Status: ok
+[1642617882.143][INFO]: Waiting for pending navigations...
+[1642617882.144][INFO]: Done waiting for pending navigations. Status: ok
+[1642617882.144][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#yesRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617882.348][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#yesRadio"
+}
+[1642617882.348][INFO]: Waiting for pending navigations...
+[1642617882.348][INFO]: Done waiting for pending navigations. Status: ok
+[1642617882.352][INFO]: Waiting for pending navigations...
+[1642617882.353][INFO]: Done waiting for pending navigations. Status: ok
+[1642617882.353][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#yesRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617882.570][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#yesRadio"
+}
+[1642617882.570][INFO]: Waiting for pending navigations...
+[1642617882.571][INFO]: Done waiting for pending navigations. Status: ok
+[1642617882.575][INFO]: Waiting for pending navigations...
+[1642617882.575][INFO]: Done waiting for pending navigations. Status: ok
+[1642617882.575][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#yesRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617882.784][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#yesRadio"
+}
+[1642617882.784][INFO]: Waiting for pending navigations...
+[1642617882.786][INFO]: Done waiting for pending navigations. Status: ok
+[1642617882.790][INFO]: Waiting for pending navigations...
+[1642617882.791][INFO]: Done waiting for pending navigations. Status: ok
+[1642617882.791][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#yesRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617882.996][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#yesRadio"
+}
+[1642617882.996][INFO]: Waiting for pending navigations...
+[1642617882.997][INFO]: Done waiting for pending navigations. Status: ok
+[1642617883.001][INFO]: Waiting for pending navigations...
+[1642617883.001][INFO]: Done waiting for pending navigations. Status: ok
+[1642617883.001][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#yesRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617883.206][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#yesRadio"
+}
+[1642617883.206][INFO]: Waiting for pending navigations...
+[1642617883.207][INFO]: Done waiting for pending navigations. Status: ok
+[1642617883.211][INFO]: Waiting for pending navigations...
+[1642617883.211][INFO]: Done waiting for pending navigations. Status: ok
+[1642617883.211][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#yesRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617883.419][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#yesRadio"
+}
+[1642617883.419][INFO]: Waiting for pending navigations...
+[1642617883.419][INFO]: Done waiting for pending navigations. Status: ok
+[1642617883.424][INFO]: Waiting for pending navigations...
+[1642617883.424][INFO]: Done waiting for pending navigations. Status: ok
+[1642617883.424][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#yesRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617883.635][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#yesRadio"
+}
+[1642617883.635][INFO]: Waiting for pending navigations...
+[1642617883.636][INFO]: Done waiting for pending navigations. Status: ok
+[1642617883.640][INFO]: Waiting for pending navigations...
+[1642617883.640][INFO]: Done waiting for pending navigations. Status: ok
+[1642617883.640][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#yesRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617883.859][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#yesRadio"
+}
+[1642617883.859][INFO]: Waiting for pending navigations...
+[1642617883.860][INFO]: Done waiting for pending navigations. Status: ok
+[1642617883.864][INFO]: Waiting for pending navigations...
+[1642617883.864][INFO]: Done waiting for pending navigations. Status: ok
+[1642617883.864][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#yesRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617884.069][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#yesRadio"
+}
+[1642617884.069][INFO]: Waiting for pending navigations...
+[1642617884.069][INFO]: Done waiting for pending navigations. Status: ok
+[1642617884.073][INFO]: Waiting for pending navigations...
+[1642617884.074][INFO]: Done waiting for pending navigations. Status: ok
+[1642617884.074][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#yesRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617884.297][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#yesRadio"
+}
+[1642617884.297][INFO]: Waiting for pending navigations...
+[1642617884.309][INFO]: Done waiting for pending navigations. Status: ok
+[1642617884.313][INFO]: Waiting for pending navigations...
+[1642617884.314][INFO]: Done waiting for pending navigations. Status: ok
+[1642617884.314][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#yesRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617884.518][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#yesRadio"
+}
+[1642617884.518][INFO]: Waiting for pending navigations...
+[1642617884.519][INFO]: Done waiting for pending navigations. Status: ok
+[1642617884.523][INFO]: Waiting for pending navigations...
+[1642617884.524][INFO]: Done waiting for pending navigations. Status: ok
+[1642617884.524][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#yesRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617884.731][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#yesRadio"
+}
+[1642617884.731][INFO]: Waiting for pending navigations...
+[1642617884.732][INFO]: Done waiting for pending navigations. Status: ok
+[1642617884.737][INFO]: Waiting for pending navigations...
+[1642617884.737][INFO]: Done waiting for pending navigations. Status: ok
+[1642617884.737][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#yesRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617884.960][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#yesRadio"
+}
+[1642617884.960][INFO]: Waiting for pending navigations...
+[1642617884.960][INFO]: Done waiting for pending navigations. Status: ok
+[1642617884.965][INFO]: Waiting for pending navigations...
+[1642617884.968][INFO]: Done waiting for pending navigations. Status: ok
+[1642617884.968][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#yesRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617885.179][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#yesRadio"
+}
+[1642617885.179][INFO]: Waiting for pending navigations...
+[1642617885.179][INFO]: Done waiting for pending navigations. Status: ok
+[1642617885.186][INFO]: Waiting for pending navigations...
+[1642617885.187][INFO]: Done waiting for pending navigations. Status: ok
+[1642617885.187][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#yesRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617885.392][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#yesRadio"
+}
+[1642617885.392][INFO]: Waiting for pending navigations...
+[1642617885.393][INFO]: Done waiting for pending navigations. Status: ok
+[1642617885.397][INFO]: Waiting for pending navigations...
+[1642617885.397][INFO]: Done waiting for pending navigations. Status: ok
+[1642617885.397][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#yesRadio"}
+  (Session info: chrome=97.0.4692.71)
+[1642617885.606][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1642617885.606][INFO]: Waiting for pending navigations...
+[1642617885.606][INFO]: Done waiting for pending navigations. Status: ok
+[1642617885.609][INFO]: Waiting for pending navigations...
+[1642617885.609][INFO]: Done waiting for pending navigations. Status: ok
+[1642617885.609][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003Cmeta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\u003Cscript type=\"text/javascript\" async=\"\" src=\"https://www.gstatic.com/recaptcha/releases/TDBxTlSsKAUm3tSIa0fwIqNu/recap..."
+[1642617885.613][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND Screenshot {
+
+}
+[1642617885.613][INFO]: Waiting for pending navigations...
+[1642617885.613][INFO]: Done waiting for pending navigations. Status: ok
+[1642617885.705][INFO]: Waiting for pending navigations...
+[1642617885.705][INFO]: Done waiting for pending navigations. Status: ok
+[1642617885.705][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAFQVJREFUeJzt3CFLbFsAhuE1avA3mCwGwyQxKAgm/Y1my6Bpuj/BYjNYhIFBMJmECfukc+BcuJcbjiOc93nahhW+/O699myapmkAAAAAAITsfPcAAAAAAIBtE0YBAAAAgBxhF..."
+[1642617885.784][INFO]: [84245fa6afe7a6b357811e3d646f469d] COMMAND Quit {
+
+}
+[1642617885.961][INFO]: [84245fa6afe7a6b357811e3d646f469d] RESPONSE Quit

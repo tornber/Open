@@ -1,0 +1,175 @@
+@media only screen and (max-width: 375px) {
+
+    .body {
+        width: 375px;
+        height: auto;
+    }
+    
+    body .header {
+        display: none;
+        pointer-events: none;
+    }
+    
+    body .full-width {
+        width: 375px;
+    }
+    
+    .full-width .main {
+        height: 2276px;
+    }
+    
+    .main .main-container {
+        width: 375px;
+    }
+    
+    .main-container .home-container {
+        margin: 12px 16px 16px 16px;
+    }
+        
+    .home-container .filter .filter-image {
+        padding: 0px;
+    }
+    
+    .main-container .home-container .home {
+        width: 16px;
+        overflow: hidden;
+    }
+    
+    .home .home-image {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .main .main-container .news {
+        -ms-grid-columns: 375px;
+        grid-template-columns: 375px;
+    }
+    
+    
+    .news .news-left .news-left-container {
+        width: 327px;
+        -o-object-fit: cover;
+           object-fit: cover;
+    }
+    
+    .news .news-left  .news-image {
+        width: 375px;
+        height: 388px;
+    }
+    
+    .main-container .news .news-right {
+        width: 375px;
+        height: 326px;
+    }
+    
+    .news-right .news-right-container {
+        width: 327px;
+    }  
+   
+    .news-right-container .select .select-header .select-input  .select-input-box {
+        width: 327px;
+    }
+    
+    .news-right .news-right-container .keywords {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .main .main-container  .news-underline {
+        margin-top: 40px;
+        width: 327px;
+    }
+    
+    .main .main-container .info-grid {
+        margin: 0px 24px;
+        margin-bottom: 40px;
+            grid-template-areas: 
+        "info1"
+        "info2"
+        "info3";
+        width: 327px;
+        height: 550px;
+        row-gap: 24px;
+        -webkit-column-gap: 0px;
+           -moz-column-gap: 0px;
+                column-gap: 0px;
+    }
+    
+    .info-grid .info1 {
+        width: 327px;
+        height: 102px;
+    }
+    
+    .info-grid .info2 {
+        width: 327px;
+        height: 182px;
+    }
+    
+    .info-grid .info3 {
+        height: 182px;
+        width: 327px;
+    }
+    
+    .time-ago {
+        height: 16px;
+        margin-top: 24px;
+    }
+    
+    main .main-container .info-underline {
+        margin-bottom: 40px;
+    }
+    
+    main .main-container .sec3 {
+        margin: 0px 24px;
+        height: 657px;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    
+    .sec3 .el {
+        width: 327px;
+        height: 180px;
+    }
+    
+    .sec3 .sec3-text {
+        width: 327px;
+        height: 352px;
+        visibility: hidden;
+        position: relative;
+        pointer-events: none;
+    }
+    
+    .sec3 .sec3-text::after {
+        content: 'Lorem ipsum dolor sit amet, consectetur opikhfkseo adipisifwcing elit, sed do eiusmod temporeop iodkjnl incididunt ut labore et dolore roipi magnaropi aliquia. Ut enim ad minim veeniam, quiswepo nostruklad uio exercitation ullamco laboris nisi ut aliquip ex eawiopl commodo consequat. Duis ropil aute irure dolor inop reprehenderit in tufpoyiopy voluptate velit esse plijxn cillum dolore eu fugiatupi nulla parieratur. Excepteuri sint. Culpa qui officia deserunt mollit anim id estio ropiluyl laborum. Sed ut perspiciatis unde omnis iste natuswi error sit voluptartem accusantium polu doloremquep laudantium, totam rem aperiam, eaque ipsa.';
+        visibility: visible;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    
+    main .main-container .sec3-underline {
+        width: 327px;
+        margin-top: 40px;
+    }
+    
+    main .main-container .news-underline {
+        width: 327px;
+    }
+    
+    body .footer {
+        display: none;
+        pointer-events: none;
+        width: 0px;
+        height: 0px;
+        -webkit-transform: translateX(250%);
+            -ms-transform: translateX(250%);
+                transform: translateX(250%);
+    }
+}
