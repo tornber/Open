@@ -5,16 +5,15 @@ const CategorySchema = new mongoose.Schema({
     incomes: [{
         description: {type: String,required: true},
         amount: {type: Number,required: true},
-        date: {type:Date,default: Date.now},
         default: {}
     }],
     outcomes: [{
         description: {type: String,required: true},
         amount: {type: Number,required: true},
         status: {type: String,enum: ['Processing','Completed'],default: 'Processing',required: true},
-        date: {type:Date,default: Date.now},
         default: {}
     }],
+    date: {type:Date,default: Date.now},
     userId: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "User",

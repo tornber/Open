@@ -232,20 +232,17 @@ app.get('/outcomes/user/:id/category/:name',async (req,res) => {
         }
         if(filter) {
             if (filter === "time") {   
-                const category = await Category.find({
-                    name,
-                    userId: id,
+                const categories = await Category.find({
                     date: {$gte: startDate,$lte: endDate}
                 }) 
-                return res.status(200).json({status: "ok",data: category})
+                return res.status(200).json({status: "ok",data: categories})
             }
             if(filter === "money") {
-                const category = await Category.find({
-                    name,
-                    userId: id,
-                    "outcomes.amount": {$gte: minAmount,$lte: maxAmount}
+                const categories = await Category.find({
+                    'outcomes.amount': { $gte: minAmount,$lte: maxAmount}
                 })
-                return res.status(200).json({status: "ok",data: category})
+                console.log(categories)
+                return res.status(200).json({status: "ok",data: categories})
             }
         } else {
             return res.status(200).json({status: "ok",data: category.outcomes})
