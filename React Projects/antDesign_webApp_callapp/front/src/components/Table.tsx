@@ -14,10 +14,10 @@ interface IProps {
 const UserTable : React.FC<IProps> = ({data}) => {
     
     const {isChanged,setIsChanged}  = useUsersStore()
-    const [visible,setVisible] = useState(false)
+    const [visible,setVisible] = useState<boolean>(false)
     const [myForm] = useForm()
-    const [isUpdate,setIsUpdate] = useState(false)
-    const [index,setIndex] = useState(0)
+    const [isUpdate,setIsUpdate] = useState<boolean>(false)
+    const [index,setIndex] = useState<number>(0)
     
     const columns : ColumnType<User>[] = [
         {
@@ -107,7 +107,7 @@ const UserTable : React.FC<IProps> = ({data}) => {
 
     const [genderOptions,setGenderOptions] = useState<string[]>(["Male","Female","Prefer not to say"])
 
-    return (<Table
+    return (<><Table
         columns={columns}
         dataSource={data}
         rowKey={(record) => record?.id.toString()}
@@ -118,66 +118,66 @@ const UserTable : React.FC<IProps> = ({data}) => {
                 Add
             </Button>
         )}>
-            <Modal
-                title={"Add User"}
-                visible={visible}
-                onOk={handleOk}
-                onCancel={handleCancel}
-            >
-                <Form form={myForm} name='myForm' id='myForm' onFinish={handleOk}>
-                    <Form.Item 
-                        name='name'
-                        label="Name" 
-                        rules={[{required: true,message: "Please fill name field"}]}
-                    >
-                        <Input value={isUpdate ? data[index].name : "" } />
-                    </Form.Item>
-                    <Form.Item 
-                        name='email'
-                        label="Email" 
-                        rules={[{required: true,message: "Please fill email field"},{type: "email",message: "please write valid email"}]}
-                    >
-                        <Input value={isUpdate ? data[index].email : "" }/>
-                    </Form.Item>
-                    <Form.Item
-                      name='email'
-                      label="Email" 
-                      rules={[{required: true,message: "Please select gender"}]} >
-                    </Form.Item>
-                    <Form.Item
-                    name='gender'
-                    label="Gender" 
+        </Table>
+        <Modal
+            title={"Add User"}
+            visible={visible}
+            onOk={handleOk}
+            onCancel={handleCancel}
+        >
+            <Form form={myForm} name='myForm' id='myForm' onFinish={handleOk}>
+                <Form.Item 
+                    name='name'
+                    label="Name" 
+                    rules={[{required: true,message: "Please fill name field"}]}
+                >
+                    <Input value={isUpdate ? data[index].name : "" } />
+                </Form.Item>
+                <Form.Item 
+                    name='email'
+                    label="Email" 
+                    rules={[{required: true,message: "Please fill email field"},{type: "email",message: "please write valid email"}]}
+                >
+                    <Input value={isUpdate ? data[index].email : "" }/>
+                </Form.Item>
+                <Form.Item
+                    name='email'
+                    label="Email" 
                     rules={[{required: true,message: "Please select gender"}]} >
-                        <Select value={isUpdate ? data[index].gender : ""}>
-                            {genderOptions.map((gender,ind) => (
-                                <Select.Option key={ind} value={gender}>{gender}</Select.Option>
-                            ))}
-                        </Select >
-                    </Form.Item>
-                    <Form.Item 
-                        name='Street'
-                        label="street" 
-                        rules={[{required: true,message: "Please fill street field"}]}
-                    >
-                        <Input value={isUpdate ? data[index].address.street : "" }/>
-                    </Form.Item>
-                    <Form.Item 
-                        name='City'
-                        label="city" 
-                        rules={[{required: true,message: "Please fill city field"}]}
-                    >
-                        <Input value={isUpdate ? data[index].address.city : "" }/>
-                    </Form.Item>
-                    <Form.Item 
-                        name='phone'
-                        label="Phone" 
-                        rules={[{required: true,message: "Please fill phone field"}]}
-                    >
-                        <Input value={isUpdate ? data[index].phone : "" } />
-                    </Form.Item>
-                </Form>
-            </Modal>
-        </Table>)
+                </Form.Item>
+                <Form.Item
+                name='gender'
+                label="Gender" 
+                rules={[{required: true,message: "Please select gender"}]} >
+                    <Select value={isUpdate ? data[index].gender : ""}>
+                        {genderOptions.map((gender,ind) => (
+                            <Select.Option key={ind} value={gender}>{gender}</Select.Option>
+                        ))}
+                    </Select >
+                </Form.Item>
+                <Form.Item 
+                    name='Street'
+                    label="street" 
+                    rules={[{required: true,message: "Please fill street field"}]}
+                >
+                    <Input value={isUpdate ? data[index].address.street : "" }/>
+                </Form.Item>
+                <Form.Item 
+                    name='City'
+                    label="city" 
+                    rules={[{required: true,message: "Please fill city field"}]}
+                >
+                    <Input value={isUpdate ? data[index].address.city : "" }/>
+                </Form.Item>
+                <Form.Item 
+                    name='phone'
+                    label="Phone" 
+                    rules={[{required: true,message: "Please fill phone field"}]}
+                >
+                    <Input value={isUpdate ? data[index].phone : "" } />
+                </Form.Item>
+            </Form>
+        </Modal></>)
 }
 
 export default UserTable

@@ -19,7 +19,7 @@ const percentage = (data,cities) => {
     })
     let peopleCount = parseInt(data.length)
     result = result.map((item) => {
-        item.percentage = item.people / peopleCount
+        item.percentage = ((item.people / peopleCount) * 100).toFixed(0)
         return item
     })
     return result

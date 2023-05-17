@@ -3,6 +3,7 @@ import './App.css';
 import useUsersStore from './store';
 import UserTable from './components/Table';
 import axiosInstance from './utils/axiosInstance';
+import PieChart from './components/PieChart';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
   return (
     <div className="App">
       {userData ? (<UserTable data={userData}/>) : (<h1>Loading...</h1>)}
+      {/* <PieChart /> */}
     </div>
   );
 }
