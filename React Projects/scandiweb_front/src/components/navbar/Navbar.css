@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.navbar--header {
+    color: black;
+    text-transform: capitalize;
+    font-size: 28px;
+}
+
+.right--navbar button {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: black;
+    border: 2px solid gray;
+    background: transparent;
+    cursor: pointer;
+}
+
+.right--navbar .add--btn {
+    margin-right: 50px;
+    height: 30px;
+    width: 50px;
+}
+
+.right--navbar .delete-btn {
+    margin-right: 50px;
+    height: 30px;
+    width: 150px;
+}
