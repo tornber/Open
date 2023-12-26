@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3jAYOwhO5ginznUoRqUPXScPkTMJn+uLztmjBGPHFFnxNtO6DEVAnvn0mG0i2c231wwaKW9+c3UvZQAUMKbepQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tornike\\Desktop\\C#\\ChatApp\\ChatClient\\ChatClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tornike\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.17763.31\\microsoft.windows.sdk.net.ref.10.0.17763.31.nupkg.sha512"
+  ],
+  "logs": []
+}
