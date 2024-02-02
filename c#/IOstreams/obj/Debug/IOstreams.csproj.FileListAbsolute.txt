@@ -1,7 +1,0 @@
-C:\Users\tornike\Desktop\C#\IOstreams\bin\Debug\IOstreams.exe.config
-C:\Users\tornike\Desktop\C#\IOstreams\bin\Debug\IOstreams.exe
-C:\Users\tornike\Desktop\C#\IOstreams\bin\Debug\IOstreams.pdb
-C:\Users\tornike\Desktop\C#\IOstreams\obj\Debug\IOstreams.csproj.AssemblyReference.cache
-C:\Users\tornike\Desktop\C#\IOstreams\obj\Debug\IOstreams.csproj.CoreCompileInputs.cache
-C:\Users\tornike\Desktop\C#\IOstreams\obj\Debug\IOstreams.exe
-C:\Users\tornike\Desktop\C#\IOstreams\obj\Debug\IOstreams.pdb
