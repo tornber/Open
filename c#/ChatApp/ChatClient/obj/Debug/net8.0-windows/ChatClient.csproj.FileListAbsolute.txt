@@ -1,0 +1,4 @@
+C:\Users\tornike\Desktop\C#\ChatApp\ChatClientApp\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\tornike\Desktop\C#\ChatApp\ChatClientApp\obj\Debug\net8.0-windows\ChatClient_MarkupCompile.cache
+C:\Users\tornike\Desktop\C#\ChatApp\ChatClient\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\tornike\Desktop\C#\ChatApp\ChatClient\obj\Debug\net8.0-windows\ChatClient_MarkupCompile.cache
