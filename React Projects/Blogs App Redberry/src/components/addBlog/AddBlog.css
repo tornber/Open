@@ -1,0 +1,113 @@
+.AddBlog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AddBlog .blog--form {
+    margin-top: 40px;
+}
+
+.AddBlog .blog--form h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1A1A1F;
+    width: 600px;
+    margin-bottom: 40px;
+}
+
+.AddBlog .blog--form label {
+    font-size: 14px;
+    color: #1A1A1F;
+    margin-bottom: 8px!important;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.AddBlog .blog--form input,select {
+    width: 290px;
+    height: 44px;
+    background-color: #FCFCFD;
+    font-size: 14px;
+    color: #1A1A1F;
+    border: 1px solid #E4E3EB;
+    padding: 12px 16px;
+    border-radius: 15px;
+    outline: none;
+}
+
+.AddBlog .blog--form input:focus {
+    border: 2px solid #5D37F3;
+}
+
+.AddBlog .blog--form input::placeholder {
+    color: #85858D;
+}
+
+.AddBlog .blog--form .photo {
+    height: 180px;
+    width: 100%;
+    background-color: #F4F3FF;
+    border: 2px dashed #85858D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.blog--form .photo div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog--form .photo .photo--description {
+    font-size: 14px;
+    color: #1A1A1F;
+    margin-top: 22px;
+}
+
+.photo p span {
+    font-weight: bold;
+}
+
+.AddBlog .blog--form .inputs {
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    margin: 24px auto;
+} 
+
+.blog--form .inputs .input--group {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs .input--group ul {
+    padding-left: 16px;
+}
+
+.messages {
+    font-size: 12px;
+    color: #85858D;
+    margin-top: 8px;
+}
+
+.input--group ul li::marker {
+    color: #85858D;
+}
+
+
+.input--group textarea {
+    display: block;
+    resize: none;
+    border: 1px solid #E4E3EB;
+    padding: 12px 16px;
+    color: #1A1A1F;
+    outline: none;
+    border-radius: 15px;
+}
+
+.input--group textarea:focus {
+    border: 2px solid #5D37F3;
+}

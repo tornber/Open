@@ -1,0 +1,17 @@
+.Back {
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    border-radius: 50%;
+    background-color: white;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Back img {
+    /* background-color: #1A1A1F; */
+}

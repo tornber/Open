@@ -1,0 +1,322 @@
+.Home {
+
+}
+
+/* .App-header {
+    height: 80px;
+}
+.navbar {
+    width: 100%;
+    height: 200px;
+}
+
+.navbar-container {
+    margin-left: 80px;
+    width: calc(100% - 160px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.App-logo {
+    width: 150px;
+    height: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.login--btn {
+    height: 40px;
+    width: 95px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #5D37F3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+} */
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, rgb(247, 247, 247) 5%, white 95%);
+}
+
+.main-header {
+    width: calc(100% - 160px);
+    /* margin-left: 80px; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+    margin-bottom: 64px;
+
+}
+
+.site--name {
+    display: flex;
+    align-items: center;
+}
+
+.site--name h1 {
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.categories {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.category {
+    padding: 8px 16px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.category h4 {
+    font-size: 12px;
+}
+
+.posts {
+    width: calc(100% - 160px);
+    margin: 64px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 32px;
+    row-gap: 56px;
+}
+
+/* .post {
+    width: 410px;
+}
+
+.post .photo {
+    width: 410px;
+    height: 330px;
+}
+
+.post .post--info {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.post .post--info .author {
+    margin-bottom: 8px;
+    color: #1A1A1F;
+    font-size: 16px;
+}
+
+.post .post--info .publish--date {
+    font-size: 12px;
+    color: #85858D;
+}
+
+.post .post--info .title {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 20px; 
+    text-overflow: ellipsis;
+
+}
+
+.post .post--info .post--categories {
+    width: 100%!important;
+    gap: 16px!important;
+}
+
+.post .post--info .post--category {
+    padding: 8px 16px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.post .post--info .post--category h4 {
+    font-size: 12px;
+}
+
+.post .post--info .description {
+    font-size: 16px;
+    color: #85858D;
+    margin: 16px 0;
+    word-break: break-all;
+}
+
+.post .post--info .link {
+    cursor: pointer;
+    display: flex;
+}
+
+.post .post--info .link h4 {
+    font-size: 14px;
+    color: #5D37F3;
+}
+
+.post .post--info .link img {
+    margin-bottom: 10px;
+    width: 20px;
+    height: 20px;
+} */
+
+/* .login--form {
+    width: 480px;
+    height: 270px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.Home .x--btn--container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Home .x--btn--container .x {
+    padding: 30px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    overflow: visible;
+    cursor: pointer;
+    position: relative;
+}
+
+.Home .x--btn--container .x div {
+    position: absolute;
+    width: 2px;
+    height: 12px;
+    background-color: #1A1A1F;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.Home .x--btn--container .x div:first-child {
+    transform: rotate(45deg);
+}
+.Home .x--btn--container .x div:last-child {
+    transform: rotate(-45deg);
+}
+
+.Home .login--form h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1A1A1F;
+}
+
+.Home .login--form form {
+    width: calc(100% - 48px);
+    margin-left: 24px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Home .login--form form label {
+    font-size: 14px;
+    color: #1A1A1F;
+    font-weight: bold;
+}
+
+
+.Home .login--form form input {
+    width: 100%;
+    height: 36px;
+    color: #1A1A1F;
+    border: 1px solid #E4E3EB;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-bottom: 30px;
+    padding: 10px 16px;
+    outline: none;
+}
+
+.Home .login--form form input:focus{
+    border: 1px solid #5D37F3;
+}
+
+.Home .login--form form button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #5D37F3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login--form form .error {
+    margin-top: -16px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+
+}
+
+.login--form form .error p {
+    color: #EA1919;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.login--form form .error img {
+    width: 20px;
+    height: 20px;
+}
+
+.login--form .login--success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% - 48px);
+    margin-left: 24px;
+    margin-top: 30px;
+}
+
+.login--form .login--success img {
+    width: 50px;
+    height: 50px;
+
+}
+
+.login--form .login--success h4 {
+    color: #1A1A1F;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.login--form .login--success .ok--btn {
+    width: 100%;
+    height: 40px;
+    background-color: #5D37F3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+} */
+
+
+
+
+

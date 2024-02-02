@@ -1,0 +1,63 @@
+.BlogPage {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, rgb(247, 247, 247) 5%, white 95%);
+}
+
+.posts {
+    width: calc(100% - 160px);
+    margin: 64px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 32px;
+    row-gap: 56px;
+}
+
+.BlogPage--main {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.BlogPage .BlogPage--main .pagination--container {
+    width: calc(100vw - 160px);
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.BlogPage .pagination--container h3 {
+    font-size: 32px;
+    color: #1A1A1F;
+}
+
+.BlogPage--main .pagination--container .pagination--btns {
+    display: flex;
+    gap: 24px;
+}
+
+.pagination--container .pagination--btns .pagination--btn {
+    border-radius: 50%;
+    background-color: #5D37F3;
+    color: white;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.pagination--container .pagination--btns .pagination--btn:first-child {
+    background-color: #E4E3EB;
+}
+
+.posts--blog--page {
+    margin-top: 40px;
+}
+
