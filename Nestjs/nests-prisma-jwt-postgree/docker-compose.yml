@@ -1,0 +1,32 @@
+name: crud-app
+services:
+  dev-db:
+    environment:
+      POSTGRES_DB: nest
+      POSTGRES_PASSWORD: "123"
+      POSTGRES_USER: postgres
+    image: postgres:13
+    networks:
+      freecodecamp: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5434"
+        protocol: tcp
+  test-db:
+    environment:
+      POSTGRES_DB: nest
+      POSTGRES_PASSWORD: "123"
+      POSTGRES_USER: postgres
+    image: postgres:13
+    networks:
+      freecodecamp: null
+    ports:
+      - mode: ingress
+        target: 5435
+        published: "5434"
+        protocol: tcp
+networks:
+  freecodecamp:
+    name: crud-app_freecodecamp
+    driver: bridge
